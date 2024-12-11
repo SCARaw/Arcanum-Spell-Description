@@ -283,30 +283,30 @@
 //
 {700}{The target's weapon is knocked out of its hand, no saving roll.}
 {701}{Unlock the locked object permamently if Magic Aptitude is stronger than lock complexity.}
-{702}{The target is pushed back several squares, directly away from the caster.}
-{703}{The caster is magickally transported to any empty tile of his choosing.}
+{702}{The target is pushed back several squares, directly away from the caster, deals collision damage.}
+{703}{The caster is magickally transported to any empty accessible tile of his choosing.}
 {704}{The spell allows the caster and his group to teleport to a known location.}
 {705}{This spell will reveal the alignment of all creatures in the vicinity of the caster.}
 {706}{This spell will reveal the contents of a container.}
 {707}{This spell will reveal the underlying attributes of the target creature.}
 {708}{This spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity.}
 {709}{This spell will determine all of the magickal properties of one item in the caster's inventory.}
-{710}{This spell raises the Constitution of the target creature.}
+{710}{This spell raises the Constitution of the target creature by +4.}
 {711}{This spell creates a large cloud of caustic gas centered on the target tile.}
 {712}{This spell creates a gust of wind, centered on the caster and blowing away in all directions.}
 {713}{This spell transforms the target's body into air, making him translucent, immaterial and capable of floating.}
 {714}{This spell summons an Air Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
-{715}{This spell raises the Strength of the target creature.}
+{715}{This spell raises the Strength of the target creature by +4.}
 {716}{This spell creates a stone missile that unerringly travels from the caster to the target.}
 {717}{This spell creates a block of stone in the empty tile indicated by the caster.}
 {718}{This spell transforms the target into stone. He gains damage resistance and extra damage but Speed is reduced.}
 {719}{This spell summons an Earth Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
-{720}{This spell raises the Dexterity of the target creature.}
+{720}{This spell raises the Dexterity of the target creature by +4.}
 {721}{This spell creates a wall of fire across the specified empty tile.}
 {722}{This spell creates a ball of superheated plasma, which streaks to the specified tile and explodes.}
 {723}{This spell immolates the target creature, who gains fire resistance and extra fire damage with any unarmed attack.}
 {724}{This spell summons a Fire Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
-{725}{This spell raises the Beauty of the target creature.}
+{725}{This spell raises the Beauty of the target creature by +4.}
 {726}{This spell creates a billowing mist, centered on the target tile.}
 {727}{This spell creates a storm of ice and sleet centered on the target tile.}
 {728}{This spell liquefies the target creature, making him translucent and capable of water movement.}
