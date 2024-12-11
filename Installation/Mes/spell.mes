@@ -281,8 +281,8 @@
 //
 // Spell Descriptions
 //
-{700}{The target's weapon is knocked out of its hand, if it fails to save.}
-{701}{The target is unlocked (but not opened).}
+{700}{The target's weapon is knocked out of its hand, no saving roll.}
+{701}{The target is permanently unlocked if MA > Lock Complexity.}
 {702}{The target is pushed back several squares, directly away from the caster.}
 {703}{The caster is magickally transported to any empty tile of his choosing.}
 {704}{The spell allows the caster and his group to teleport to a known location.}
