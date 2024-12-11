@@ -1,0 +1,569 @@
+//
+// Spell Names
+//
+{0}{Disarm}
+{1}{Unlocking Cantrip}
+{2}{Unseen Force}
+{3}{Spatial Distortion}
+{4}{Teleportation}
+{5}{Sense Alignment}
+{6}{See Contents}
+{7}{Read Aura}
+{8}{Sense Hidden}
+{9}{Divine Magick}
+{10}{Vitality of Air}
+{11}{Poison Vapours}
+{12}{Call Winds}
+{13}{Body of Air}
+{14}{Call Air Elemental}
+{15}{Strength of Earth}
+{16}{Stone Throw}
+{17}{Wall of Stone}
+{18}{Body of Stone}
+{19}{Call Earth Elemental}
+{20}{Agility of Fire}
+{21}{Wall of Fire}
+{22}{Fireflash}
+{23}{Body of Fire}
+{24}{Call Fire Elemental}
+{25}{Purity of Water}
+{26}{Call Fog}
+{27}{Squall of Ice}
+{28}{Body of Water}
+{29}{Call Water Elemental}
+{30}{Shield of Protection}
+{31}{Jolt}
+{32}{Wall of Force}
+{33}{Bolt of Lightning}
+{34}{Disintegrate}
+{35}{Charm}
+{36}{Stun}
+{37}{Drain Will}
+{38}{Nightmare}
+{39}{Dominate Will}
+{40}{Resist Magick}
+{41}{Disperse Magick}
+{42}{Dweomer Shield}
+{43}{Bonds of Magick}
+{44}{Reflection Shield}
+{45}{Hardened Hands}
+{46}{Weaken}
+{47}{Shrink}
+{48}{Flesh to Stone}
+{49}{Polymorph}
+{50}{Charm Beast}
+{51}{Entangle}
+{52}{Control Beast}
+{53}{Succour Beast}
+{54}{Regenerate}
+{55}{Harm}
+{56}{Conjure Spirit}
+{57}{Summon Undead}
+{58}{Create Undead}
+{59}{Quench Life}
+{60}{Minor Healing}
+{61}{Halt Poison}
+{62}{Major Healing}
+{63}{Sanctuary}
+{64}{Resurrect}
+{65}{Illuminate}
+{66}{Flash}
+{67}{Blur Sight}
+{68}{Phantasmal Fiend}
+{69}{Invisibility}
+{70}{Plague of Insects}
+{71}{Orcish Champion}
+{72}{Guardian Ogre}
+{73}{Hellgate}
+{74}{Familiar}
+{75}{Magelock}
+{76}{Congeal Time}
+{77}{Hasten}
+{78}{Stasis}
+{79}{Tempus Fugit}
+
+//
+// "Hidden" (Magick-Item Only) Spell Names (60 of them)
+//
+//...
+// Asterisks ("*") means that the spell does NOT currently work or is unfinished.
+// Three asterisks ("***") mean that it *really* doesn't work, one ("*") means it is just
+//   somewhat broken.  No stars means that it *should* be working.  ;)
+// "Passive" means that the spell only triggers when the item it is attached to wishes it.
+{80}{MI: UNUSED} Regeneration ***
+{81}{MI: UNUSED} Drain Life ***
+{82}{MI: Fire Shield (Passive: Parent Damaged)}
+{83}{MI: Shield (Duration)}
+{84}{MI: Invisibility}
+{85}{MI: Demonic Armor: Base (Passive: Wield)}
+{86}{MI: Demonic Armor: Shield (Passive: Parent Damaged)}
+{87}{MI: Electrical Shield (Passive: Parent Damaged)}
+{88}{MI: SnakeForm (Script Spell)}
+{89}{MI: Earthquake (Passive: Parent Attacks Target)}
+{90}{MI: Harm Undead}
+{91}{MI: UNUSED} Area Fear Undead ***
+{92}{MI: Holy Smiting}
+{93}{MI: Slaying Strength (Passive: Parent Atks or Hit by Target)}
+{94}{MI: Hammer of the Earth (Passive: Wield)}
+{95}{MI: Axe of the Winds (Passive: Wield)}
+{96}{MI: Dagger of Pain (Passive: Wield)}
+{97}{MI: UNUSED} Animate Corpse ***
+{98}{MI: UNUSED} Spell Breaker ***
+{99}{MI: UNUSED} Bashing ***
+{100}{MI: UNUSED} LifeWard *
+{101}{MI: UNUSED} Chain Lightning ***
+{102}{MI: UNUSED} Greater Healing ***
+{103}{MI: UNUSED} Life Steal *
+{104}{MI: UNUSED} Mind Warp ***
+{105}{MI: Unrevivifiable Undead}
+{106}{MI: UNUSED} Area Fear ***
+{107}{MI: UNUSED} Area Fatigue ***
+{108}{MI: UNUSED} Area Fear (Animals) ***
+{109}{MI: UNUSED} Area Reanimate *
+{110}{MI: UNUSED} Wolf Form ***
+{111}{MI: UNUSED} Returning ***
+{112}{MI: Staff of the Necromancer}
+{113}{MI: UNUSED} Paralyze (Evil) ***
+{114}{MI: Elven Perfume}
+{115}{MI: Heal Light (Will 'O Wisp)}
+{116}{MI: Pad Lighting1 (NOT A SPELL)}
+{117}{MI: Pad Lighting2 (NOT A SPELL)}
+{118}{MI: Pad Lighting3 (NOT A SPELL)}
+{119}{MI: Pad Lighting4 (NOT A SPELL)}
+{120}{MI: Pad Lighting5 (NOT A SPELL)}
+{121}{MI: SuperHeal (Script Spell)}
+// These are primarily for Special Creatures (Lich, etc.)
+{122}{MI: Araya Projectile}
+{123}{MI: Summon Seether}
+{124}{MI: Summon Were-Rat}
+{125}{MI: Summon Wargun}
+{126}{MI: Summon Baleful Hound}
+{127}{MI: Flesh-To-Stone (Duration)}
+{128}{MI: UNUSED} Slow Party ***
+{129}{MI: UNUSED} Poison DOT ***
+{130}{MI: UNUSED} Fatigue DOT ***
+{131}{MI: Call Winds (All)}
+{132}{MI: Unseen Force (All)}
+{133}{MI: Stasis (Duration)}
+{134}{MI: Freeze}
+{135}{MI: Summon Undead}
+{136}{MI: Conjure Spirit II}
+{137}{MI: Heal Potion}
+{138}{MI: Haste Boots}
+{139}{MI: 60}
+
+
+// "Tech" Spell Names:
+// WIP! JLR! Probably should move these for clarity...
+{140}{Tech: Snare}
+{141}{Tech: Brain Builder}
+{142}{Tech: Hypnotic Suggestion}
+{143}{Tech: Basic Paralysis Effect}
+{144}{Tech: Muscle Maker}
+{145}{Tech: Dex Enhancer}
+{146}{Tech: Magick Detect}
+{147}{Tech: Jolt}
+{148}{Tech: Explode (Hallucinate)}
+{149}{Tech: Heal Regen}
+{150}{Tech: Heal Light}
+{151}{Tech: Fatigue Restore}
+{152}{Tech: Cure Poison}
+{153}{Tech: Fatigue Limiter}
+{154}{Tech: Heal Accelerator}
+{155}{Tech: Wonder Drug}
+{156}{Tech: Cure All}
+{157}{Tech: Boost Intelligence}
+{158}{Tech: Boost Strength}
+{159}{Tech: Boost Perception}
+{160}{Tech: Boost Dexterity}
+{161}{Tech: Boost Mental}
+{162}{Tech: Boost Physical}
+{163}{Tech: Boost All}
+{164}{Tech: Poison}
+{165}{Tech: Hallucinate}
+{166}{Tech: Acid}
+{167}{Tech: Animal Scent}
+{168}{Tech: Charged Regenerate}
+{169}{Tech: Venom}
+{170}{Tech: Cleaner}
+{171}{Tech: Strong Poison}
+{172}{Tech: Wine}
+{173}{Tech: Aqua Vitae}
+{174}{Tech: Electrical Shield}
+{175}{Tech: Explosion}
+{176}{Tech: Dynamite}
+{177}{Tech: Explode (Flash)}
+{178}{Tech: Explode (Smoke)}
+{179}{Tech: Explode (Stun)}
+{180}{Tech: Explode (Fire)}
+{181}{Tech: Alchohol)}
+{182}{Tech: Magnetic Inversion}
+{183}{Tech: Animal Lure}
+{184}{Tech: Trap Springer}
+{185}{Tech: Explode (Poison)}
+{186}{Tech: Flash}
+{187}{Tech: Magnetic Inversion Charge}
+{188}{Tech: Arm/Disarm}
+{189}{Tech: Invigorator}
+{190}{Tech: Reanimator}
+{191}{Tech: Heal Injection}
+{192}{Tech: Miracle Cure}
+{193}{Tech: Mental Inhibitor}
+{194}{Tech: Necromizer}
+{195}{Tech: Fortifier}
+{196}{Tech: Sleep Aid}
+{197}{Tech: Potion of Paralysis}
+{198}{Tech: Knock-Out Gas}
+{199}{Tech: Explode (Electrical)}
+{200}{Tech: Mustard Gas}
+{201}{Tech: Explode (Concussion)}
+{202}{Tech: Explode (Paralysis)}
+{203}{Tech: Grenade Launcher}
+{204}{Tech: Tranquilizer Gun}
+{205}{Tech: Explode (Grenade Launcher)}
+{206}{Tech: Vivifier}
+
+//
+// "Hidden" (Magick-Item Only) Spell Names  Part 2 (11 of them)
+//
+//...
+{207}{MI2: Kerghan's Death Spell}
+{208}{MI2: Kerghan's Attack Spell}
+{209}{MI2: Kerghan's Heal Spell}
+{210}{MI2: Potion of Fatigue Slower}
+{211}{MI2: Potion of Essence of Intellect}
+{212}{MI2: Potion of Haste}
+{213}{MI2: Liquid of Skin Thickening}
+{214}{MI2: Potion of Kalispi's Venom}
+{215}{MI2: Potion of Restorative}
+{216}{MI2: Conjure Spirit Permanent}
+{217}{MI2: Phantom Knight Death}
+{218}{Exit}
+{219}{Molotov Cocktail}  // No Translation needed
+{220}{Time Bomb}  // No Translation needed
+{221}{Quench Life}  // No Translation needed
+{222}{Wolf Form (Permanent)}  // No Translation needed
+
+
+
+
+//
+// College Names
+//
+{500}{Conveyance}
+{501}{Divination}
+{502}{Air}
+{503}{Earth}
+{504}{Fire}
+{505}{Water}
+{506}{Force}
+{507}{Mental}
+{508}{Meta}
+{509}{Morph}
+{510}{Nature}
+{511}{Necromantic black}
+{512}{Necromantic white}
+{513}{Phantasm}
+{514}{Summoning}
+{515}{Temporal}
+
+//
+// Spell Error Messages
+//
+{600}{Not enough Energy.}
+{601}{Maintain terminated.}
+{602}{You lose your concentration.}
+{603}{The effect is nullified.}
+{604}{You cannot see the target.}
+{605}{This life cannot be replenished.}
+{606}{The target is already fully healed.}
+
+//
+// Spell Descriptions
+//
+{700}{The target's weapon is knocked out of its hand, if it fails to save.}
+{701}{The target is unlocked (but not opened).}
+{702}{The target is pushed back several squares, directly away from the caster.}
+{703}{The caster is magickally transported to any empty tile of his choosing.}
+{704}{The spell allows the caster and his group to teleport to a known location.}
+{705}{This spell will reveal the alignment of all creatures in the vicinity of the caster.}
+{706}{This spell will reveal the contents of a container.}
+{707}{This spell will reveal the underlying attributes of the target creature.}
+{708}{This spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity.}
+{709}{This spell will determine all of the magickal properties of one item in the caster's inventory.}
+{710}{This spell raises the Constitution of the target creature.}
+{711}{This spell creates a large cloud of caustic gas centered on the target tile.}
+{712}{This spell creates a gust of wind, centered on the caster and blowing away in all directions.}
+{713}{This spell transforms the target's body into air, making him translucent, immaterial and capable of floating.}
+{714}{This spell summons an Air Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
+{715}{This spell raises the Strength of the target creature.}
+{716}{This spell creates a stone missile that unerringly travels from the caster to the target.}
+{717}{This spell creates a block of stone in the empty tile indicated by the caster.}
+{718}{This spell transforms the target into stone. He gains damage resistance and extra damage but Speed is reduced.}
+{719}{This spell summons an Earth Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
+{720}{This spell raises the Dexterity of the target creature.}
+{721}{This spell creates a wall of fire across the specified empty tile.}
+{722}{This spell creates a ball of superheated plasma, which streaks to the specified tile and explodes.}
+{723}{This spell immolates the target creature, who gains fire resistance and extra fire damage with any unarmed attack.}
+{724}{This spell summons a Fire Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
+{725}{This spell raises the Beauty of the target creature.}
+{726}{This spell creates a billowing mist, centered on the target tile.}
+{727}{This spell creates a storm of ice and sleet centered on the target tile.}
+{728}{This spell liquefies the target creature, making him translucent and capable of water movement.}
+{729}{This spell summons a Water Elemental, who will appear in the target tile and immediately attack the caster's enemies.}
+{730}{This spell creates a deflective energy screen about the target, increasing its armor class and resistances.}
+{731}{This spell causes a surge of electricity to flow into all creatures within very close range.}
+{732}{This spell creates a shimmering wall of force in the specified empty square.}
+{733}{This spell creates a bolt of lightning from the caster to the target creature.}
+{734}{This spell eliminates the binding force between atoms, dispersing the target as constituent particles.}
+{735}{This spell causes the target to be friendly towards the caster, if a save is not made.}
+{736}{This spell will stun the target for a few seconds, if a save is not made.}
+{737}{This spell causes the target creature's willpower to drop by half for 1-2 hours, if a saving throw is not made.}
+{738}{This spell causes all creatures within the vicinity of the caster to save or flee in terror.}
+{739}{This spell places the mind of the target under the control of the caster, unless a saving throw is made.}
+{740}{The target gains magick resistance.}
+{741}{This spell cancels existing spell effects on the target.}
+{742}{This spell prevents magick from operating on the target.}
+{743}{This spell prevents the target creature from casting any spells.}
+{744}{The caster is surrounded by a barrier which causes any spell to be reflected back to its caster, at additional cost.}
+{745}{This spell makes the hands of the target creature do more damage.}
+{746}{This spell weakens the substance of the target, reducing its damage resistance for the duration of the spell.}
+{747}{This spell reduces a creature to half its size.}
+{748}{This spell converts flesh to stone temporarily.}
+{749}{This spell transforms the target creature into a sheep for as long as the spell is maintained. }
+{750}{This spell causes every animal in the vicinity to gain a Good reaction to the player.}
+{751}{This spell imbues a patch of vegetation with motion preventing the target creature from walking.}
+{752}{This spell places the mind of the animal under the control of the caster, unless a saving throw is made. }
+{753}{This spell summons an animal, which will appear in the target tile and immediately attack the caster's enemies.}
+{754}{This spell greatly increase the heal rate of the caster and all followers.}
+{755}{This spell causes damage to the target creature.}
+{756}{This spell allows the caster to speak with the spirit of the target corpse upon which it is cast.}
+{757}{This spell summons an undead monster that will attack everything.}
+{758}{This spell animates the target corpse, which will follow the caster.}
+{759}{This spell kills the target creature, unless it successfully saves.}
+{760}{This spell heals a small number of hit points of damage to the target.}
+{761}{This spell reduces the Poison Factor of the target.}
+{762}{This spell heals a large number of hit points of damage to the target.}
+{763}{This spell protects the caster from Undead.}
+{764}{This spell returns the target creature to life, with full hit points and a poison level of zero.}
+{765}{This spell raises the light level in an area surrounding the target creature.}
+{766}{This spell temporarily blinds the target.}
+{767}{This spell makes the caster harder to see and to be hit.}
+{768}{This spell creates the illusion of a formidable monster.}
+{769}{The target becomes invisible except when attacking.}
+{770}{This spell summons a swarm of insects, which surrounds and slows the target creature.}
+{771}{This spell summons an orc into the specified empty square.}
+{772}{This spell summons an ogre into the specified empty square.}
+{773}{This spell summons a demon into the specified empty square.}
+{774}{This spell summons a familiar for the caster.}
+{775}{This spell locks any portal. The door or window cannot be lockpicked.}
+{776}{This spell halves the Speed of all creatures in the vicinity of the caster who fail their saving throw.}
+{777}{This spell doubles the target creature's Speed.}
+{778}{This spell paralyzes the target creature, unless it makes its saving throw.}
+{779}{This powerful spell speeds the caster and his entire group, while slowing down every other creature in the world.}
+//
+// Magick-Item Spell Descriptions
+//
+{780}{The wielder will regenerate hit-points at an accelerated rate.}
+{782}{The item will drain some of the health from a hit target and give it to the wielder.}
+{783}{The wearer is surrounded by a shield of fire that damages anyone that strikes it.}
+{784}{The wielder is surrounded by a mystic shield.}
+{785}{The wielder becomes invisible.}
+{786}{The wielder gains several abilities.  There is a taint of evil associated with them.}
+{787}{The wielder is surrounded by a demonic shield of fire that damages anyone that strikes it.}
+{788}{The wearer is surrounded by an electrical shield that damages anyone that strikes it.}
+{789}{The caster turns into a Snake-Man.}
+{790}{The weapon sometimes causes small earthquakes, that may inflict harm to nearby creatures.}
+{791}{The weapon is specially constructed to cause harm to Undead creatures.}
+{792}{All Undead in the area will be struck with fear.}
+{793}{The weapon is specially constructed to cause harm to Evil creatures.}
+{794}{The weapon invigorates it wielder whenever fighting the Undead.}
+{795}{This increases it's wielder's physical prowess, at the cost of their mental abilities.}
+{796}{The wielder is faster.}
+{797}{This item makes the wielder seem somehow undesirable.}
+{798}{This item will temporarily re-animate a creature killed by it.}
+{799}{This item may break spells on an object struck.}
+{800}{This item has an increased chance of stunning an opponent struck with it.}
+{801}{This item will ward the life of the owner, resurrecting them once when they die.}
+{802}{This spell throws lightning at enemies in all directions.}
+{803}{This spell will heal all damage and removes all poison for a creature and its followers.}
+{804}{This item drains the life-energy of creatures killed with it, temporarily drawing that energy to it's wielder}
+{805}{This item may temporarily warp the mind of an opponent it strikes, causing them to fight for it's owner.}
+{806}{Undead that are destroyed by this weapon are torn asunder, preventing them from being re-animated.}
+{807}{All creatures near the caster will flee from the caster unless they save.}
+{808}{All creatures nearby the caster will feel their energy drain constantly.}
+{809}{All animals around the wielder will flee in fear.}
+{810}{Any dead creature near the caster will be temporarily re-animated in service to the caster.}
+{811}{The caster will turn into a wolf.}
+{812}{The item will return to its wielder.}
+{813}{This item gives an increased resistance to poison.}
+{814}{This item may paralyze an opponent briefly.  However, it behaves poorly when used by Good creatures.}
+{815}{MI: This item smells of flowers.}
+{816}{MI: This item glows strangely.}
+{817}{MI: Pad Lighting1}
+{818}{MI: Pad Lighting2}
+{819}{MI: Pad Lighting3}
+{820}{MI: Pad Lighting4}
+{821}{MI: Pad Lighting5}
+{822}{MI: SuperHeal}
+{823}{MI: Araya Projectile}
+{824}{MI: Summon Seether}
+{825}{MI: Summon Were-Rat}
+{826}{MI: Summon Wargun}
+{827}{MI: Summon Baleful Hound}
+{828}{MI: Flesh-To-Stone (Duration)}
+{829}{MI: Slow Party}
+{830}{MI: Poison DOT}
+{831}{MI: Fatigue DOT}
+{832}{MI: Call Winds (All)}
+{833}{MI: Unseen Force (All)}
+{834}{MI: Stasis (Duration)}
+{835}{MI: Freeze}
+{836}{MI: Summon Undead}
+{837}{MI: Conjure Spirit II}
+{838}{MI: Heal Potion}
+{839}{MI: Haste Boots}
+{840}{MI: 60}
+//
+// Tech-Spell Descriptions
+//
+{841}{Tech: Snare}
+{842}{Tech: Brain Builder}
+{843}{Tech: Hypnotic Suggestion}
+{844}{Tech: Basic Paralysis Effect}
+{845}{Tech: Muscle Maker}
+{846}{Tech: Dex Enhancer}
+{847}{Tech: Magick Detect}
+{848}{Tech: Jolt}
+{849}{Tech: Explode (Hallucinate)}
+{850}{Tech: Heal Regen}
+{851}{Tech: Heal Light}
+{852}{Tech: Fatigue Restore}
+{853}{Tech: Cure Poison}
+{854}{Tech: Fatigue Limiter}
+{855}{Tech: Heal Accelerator}
+{856}{Tech: Wonder Drug}
+{857}{Tech: Cure All}
+{858}{Tech: Boost Intelligence}
+{859}{Tech: Boost Strength}
+{860}{Tech: Boost Perception}
+{861}{Tech: Boost Dexterity}
+{862}{Tech: Boost Mental}
+{863}{Tech: Boost Physical}
+{864}{Tech: Boost All}
+{865}{Tech: Poison}
+{866}{Tech: Hallucinate}
+{867}{Tech: Acid}
+{868}{Tech: Animal Scent}
+{869}{Tech: Charged Regenerate}
+{870}{Tech: Venom}
+{871}{Tech: Cleaner}
+{872}{Tech: Strong Poison}
+{873}{Tech: Wine}
+{874}{Tech: Aqua Vitae}
+{875}{Tech: Electrical Shield}
+{876}{Tech: Explosion}
+{877}{Tech: Dynamite}
+{878}{Tech: Explode (Flash)}
+{879}{Tech: Explode (Smoke)}
+{880}{Tech: Explode (Stun)}
+{881}{Tech: Explode (Fire)}
+{882}{Tech: Alchohol)}
+{883}{Tech: Magnetic Inversion}
+{884}{Tech: Animal Lure}
+{885}{Tech: Trap Springer}
+{886}{Tech: Explode (Poison)}
+{887}{Tech: Flash}
+{888}{Tech: Magnetic Inversion Charge}
+{889}{Tech: Trap Skill Enhancer}
+{890}{Tech: Invigorator}
+{891}{Tech: Reanimator}
+{892}{Tech: Heal Injection}
+{893}{Tech: Miracle Cure}
+{894}{Tech: Mental Inhibitor}
+{895}{Tech: Necromizer}
+{896}{Tech: Fortifier}
+{897}{Tech: Sleep Aid}
+{898}{Tech: Potion of Paralysis}
+{899}{Tech: Knock-Out Gas}
+{900}{Tech: Explode (Electrical)}
+{901}{Tech: Mustard Gas}
+{902}{Tech: Explode (Concussion)}
+{903}{Tech: Explode (Paralysis)}
+{904}{Tech: Grenade Launcher}
+{905}{Tech: Tranquilizer Gun}
+{906}{Tech: Explode (Grenade Launcher)}
+{907}{Tech: Vivifier}
+
+
+//
+// Magick-Item Spell Descriptions Part 2
+//
+{908}{MI2: Kerghan's Death Spell}
+{909}{MI2: Kerghan's Attack Spell}
+{910}{MI2: Kerghan's Heal Spell}
+{911}{MI2: Potion of Fatigue Slower}
+{912}{MI2: Potion of Essence of Intellect}
+{913}{MI2: Potion of Haste}
+{914}{MI2: Liquid of Skin Thickening}
+{915}{MI2: Potion of Kalispi's Venom}
+{916}{MI2: Potion of Restorative}
+{917}{MI2: Conjure Spirit Permanent}
+{918}{MI2: Phantom Knight Death}
+{919}{Teleports the caster to the entrance-point of the current area.}
+{920}{Molotov Cocktail}  // No Translation needed
+{921}{Time Bomb}  // No Translation needed
+{922}{Quench Life}  // No Translation needed
+{923}{Wolf Form (Permanent)}  // No Translation needed
+
+
+
+
+
+
+//
+// College Descriptions
+//
+{8000}{The college of Conveyance holds spells that deal with motion and transportation.}
+{8001}{The college of Divination concerns itself with the gathering of knowledge through magickal means.}
+{8002}{The College of Air holds the spells that manipulate the first elemental material, that of air and wind.}
+{8003}{The College of Earth holds the spells that manipulate the second elemental material, that of earth and stone.}
+{8004}{The College of Fire holds the spells that manipulate the third elemental material, that of fire and heat.}
+{8005}{The College of Water holds the spells that manipulate the fourth elemental material, that of water and ice.}
+{8006}{The College of Force contains spells that manipulate and direct pure energy.}
+{8007}{The Mental College contains spells that influence and control the minds of their targets. }
+{8008}{The Meta College contains spells that affect other spells.}
+{8009}{The Morph College contains spells that change the substance of the target.}
+{8010}{The College of Nature contains spells that control plants, animals, and natural forces.}
+{8011}{The Black Necromantic College contains spells that negatively affect the life force of a creature.}
+{8012}{The White Necromantic College contains spells that positively affect the life force of a creature.}
+{8013}{The College of Phantasm contains spells that concern the control of light and illusion.}
+{8014}{The College of Summoning contains spells that concern the summoning of creatures of progressive power.}
+{8015}{The Temporal College concerns spells that control the flow of time.}
+
+//
+// College Mastery Descriptions
+//
+{9000}{You are the Master of all spells that deal with motion and transportation.}
+{9001}{You are the Master of all spells that concern the gathering of knowledge through magickal means.}
+{9002}{You are the Master of all spells that manipulate the first elemental material, that of air and wind.}
+{9003}{You are the Master of all spells that manipulate the second elemental material, that of earth and stone.}
+{9004}{You are the Master of all spells that manipulate the third elemental material, that of fire and heat.}
+{9005}{You are the Master of all spells that manipulate the fourth elemental material, that of water and ice.}
+{9006}{You are the Master of all spells that manipulate and direct pure energy.}
+{9007}{You are the Master of all spells that influence and control the minds of their targets. }
+{9008}{You are the Master of all spells that affect other spells.}
+{9009}{You are the Master of all spells that change the substance of the target.}
+{9010}{You are the Master of all spells that control plants, animals, and natural forces.}
+{9011}{You are the Master of all spells that negatively affect the life force of a creature.}
+{9012}{You are the Master of all spells that positively affect the life force of a creature.}
+{9013}{You are the Master of all spells that concern the control of light and illusion.}
+{9014}{You are the Master of all spells that concern the summoning of creatures of progressive power.}
+{9015}{You are the Master of all spells that control the flow of time.}
+
+
+//
+//  Error Message Descriptions
+//
+
+{10000}{This place seems to block your attempt to teleport.}
