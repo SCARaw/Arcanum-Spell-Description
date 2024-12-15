@@ -316,8 +316,8 @@
 {732}{This spell creates a shimmering wall of force in the specified empty square.} Wall of Force 
 {733}{This spell creates a bolt of lightning from the caster to the target creature.} Bolt of Lightning 
 {734}{This spell eliminates the binding force between atoms, dispersing the target as constituent particles.} Disintegrate 
-{735}{This spell causes the target to be friendly towards the caster, no saving throw.} Charm
-{736}{This spell will stun the target for 10 seconds, if a save is not made.} Stun
+{735}{This spell increase target reaction to a caster by +30 (doesn't affect undead).} Charm
+{736}{This spell will stun the target for 4 turns, if a save is not made.} Stun
 {737}{This spell causes the target creature's willpower to drop by half for 1-2 hours, if a saving throw is not made.} Drain Will 
 {738}{This spell causes all creatures within the vicinity of the caster to save or flee in terror.} Nightmare
 {739}{This spell places the mind of the target under the control of the caster, unless a saving throw is made.} Dominate Will 
@@ -331,13 +331,13 @@
 {747}{This spell reduces a creature to half its size.} Shrink
 {748}{This spell converts flesh to stone temporarily.} Flesh to Stone 
 {749}{This spell transforms the target creature into a sheep for as long as the spell is maintained. } Polymorph 
-{750}{This spell causes every animal in the vicinity to gain a Good reaction to the player.} Charm Beast 
-{751}{This spell imbues a patch of vegetation with motion preventing the target creature from walking, it's considered non-hostile.} Entangle 
+{750}{This spell causes every animal in the vicinity to be non-aggresive and set 50 (neutral) reaction.} Charm Beast 
+{751}{This spell raise the natural veins from the ground to hold down the target in place, action is not considered as hostile.} Entangle 
 {752}{This spell places the mind of the animal under the control of the caster, unless a saving throw is made. } Control Beast 
-{753}{This spell summons an animal, which will appear in the target tile and immediately attack the caster's enemies.} Succour Beast 
+{753}{This spell summons an animal to a caster's party, type of animal scale with magic aptitude.} Succour Beast 
 {754}{This spell greatly increase the heal rate of the caster and all followers.} Regenerate 
 {755}{This spell causes 3-40 points of physical damage to the target creature.} Harm 
-{756}{This spell allows the caster to speak with the spirit of the target corpse upon which it is cast.} Conjure Spirit 
+{756}{This spell summon the spirit of the corpse upon which it is cast.} Conjure Spirit 
 {757}{This spell summons an undead monster that will attack everything.} Summon Undead 
 {758}{This spell animates the target corpse, which will follow the caster.} Create Undead 
 {759}{This spell kills the target creature, unless it successfully saves.} Quench Life 
