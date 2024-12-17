@@ -281,9 +281,9 @@
 //
 // Spell Descriptions
 //
-{700}{The target's weapon is knocked out of its hand, no saving roll.} Disarm
-{701}{Unlock the locked object permamently if Magic Aptitude is stronger than lock complexity.} Unlock Cantrip
-{702}{The target is pushed back several squares, directly away from the caster, deals collision damage.} Unseen Force
+{700}{On Cast: The target's weapon is knocked out of its hand, no saving roll.} Disarm
+{701}{On Cast: Unlock the locked object permamently if Magic Aptitude is stronger than lock complexity.} Unlock Cantrip
+{702}{On Cast: The target is pushed back several squares, directly away from the caster, deals collision damage.} Unseen Force
 {703}{The caster is magickally transported to any empty accessible tile of his choosing.} Spactral Distortion
 {704}{The spell allows the caster and his group to teleport to a known location.} Teleport
 {705}{This spell will reveal the alignment of all creatures in the vicinity of the caster. Maintained effect} Sense Aligment
@@ -292,7 +292,7 @@
 {708}{This spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity. Maintained effect} Sense Hidden
 {709}{This spell will determine all of the magickal properties of one item in the caster's inventory.} Divine Magick 
 {710}{This spell raises the Constitution of the target creature by +4. Maintained effect} Vitality of Air 
-{711}{This spell creates a large cloud of caustic gas centered on the target tile.} Poison Vapours 
+{711}{ON Cast Effect: Creates a cloud of caustic gas centered on the target tile gas deals 2-8 damage and apply poison, Player party is protected.} Poison Vapours 
 {712}{This spell creates a gust of wind, centered on the caster and blowing away in all directions.} Call Winds 
 {713}{This spell transforms the target's body into air, making him translucent, immaterial and capable of floating.} Body of Air	
 {714}{This spell summons an Air Elemental, who will appear in the target tile and immediately attack the caster's enemies.} Call Air Elemental 
