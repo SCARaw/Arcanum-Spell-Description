@@ -281,35 +281,35 @@
 //
 // Spell Descriptions
 //
-{700}{On Cast: The target's weapon is knocked out of its hand, no saving roll.} Disarm
-{701}{On Cast: Unlock the locked object permamently if Magic Aptitude is stronger than lock complexity.} Unlock Cantrip
-{702}{On Cast: The target is pushed back several squares, directly away from the caster, deals collision damage.} Unseen Force
-{703}{The caster is magickally transported to any empty accessible tile of his choosing.} Spactral Distortion
-{704}{The spell allows the caster and his group to teleport to a known location.} Teleport
-{705}{This spell will reveal the alignment of all creatures in the vicinity of the caster. Maintained effect} Sense Aligment
-{706}{This spell will reveal the contents of a container.} See Content
-{707}{This spell will reveal the character sheet of the target creature.} Read Aura
-{708}{This spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity. Maintained effect} Sense Hidden
-{709}{This spell will determine all of the magickal properties of one item in the caster's inventory.} Divine Magick 
-{710}{This spell raises the Constitution of the target creature by +4. Maintained effect} Vitality of Air 
+{700}{On Cast: The target's weapon is knocked out of its hand. Hostile action without saving roll.} Disarm
+{701}{On Cast: Unlock the locked object permamently if Magic Aptitude is stronger than lock complexity. Hostile action.} Unlock Cantrip
+{702}{On Cast: The target is pushed back several squares, directly away from the caster, hostile action deals collision damage.} Unseen Force
+{703}{The caster is magickally transported to any empty accessible tile of his choosing. Non-Hostile spell.} Spactral Distortion
+{704}{The spell allows the caster and his group to teleport to a known location. Non-Hostile spell.} Teleport
+{705}{This spell will reveal the alignment of all creatures in the vicinity of the caster. Maintained effect Non-Hostile spell.} Sense Aligment
+{706}{This spell will reveal the contents of a container. Non-Hostile spell.} See Content
+{707}{This spell will reveal the character sheet of the target creature. Non-Hostile spell.} Read Aura
+{708}{This spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity. Maintained effect Non-Hostile spell.} Sense Hidden
+{709}{This spell will determine all of the magickal properties of one item in the caster's inventory. Non-Hostile spell.} Divine Magick 
+{710}{This spell raises the Constitution of the target creature by +4. Maintained effect Non-Hostile spell.} Vitality of Air 
 {711}{ON Cast Effect: Creates a cloud of caustic gas centered on the target tile gas deals 2-8 damage and apply poison, Player party is protected.} Poison Vapours 
 {712}{This spell creates a gust of wind, centered on the caster and blowing away in all directions.} Call Winds 
-{713}{This spell transforms the target's body into air, making him translucent, immaterial and capable of floating.} Body of Air	
+{713}{This spell transforms the target's body into air, making him translucent, immaterial and capable of floating. Non-Hostile spell.} Body of Air	
 {714}{This spell summons an Air Elemental, who will appear in the target tile and immediately attack the caster's enemies.} Call Air Elemental 
-{715}{This spell raises the Strength of the target creature by +4. Maintained effect} Strength of Earth 
+{715}{This spell raises the Strength of the target creature by +4. Maintained effect Non-Hostile spell.} Strength of Earth 
 {716}{This spell creates a stone missile that unerringly travels from the caster to the target.} Stone Throw 
-{717}{This spell creates a block of stone in the empty tile indicated by the caster.} Wall of Stone 
-{718}{This spell transforms the target into stone. He gains damage resistance and extra damage but Speed is reduced.} Body of Stone 
+{717}{This spell creates a block of stone in the empty tile indicated by the caster. Non-Hostile spell.} Wall of Stone 
+{718}{This spell transforms the target into stone. He gains damage resistance and extra damage but Speed is reduced. Non-Hostile spell.} Body of Stone 
 {719}{This spell summons an Earth Elemental, who will appear in the target tile and immediately attack the caster's enemies.} Call Earth Elemental 
-{720}{This spell raises the Dexterity of the target creature by +4. Maintained effect} Agility of Fire 
-{721}{This spell creates a wall of fire across the specified empty tile. Maintained effect} Wall of Fire 
+{720}{This spell raises the Dexterity of the target creature by +4. Maintained effect Non-Hostile spell.} Agility of Fire 
+{721}{This spell creates a wall of fire across the specified empty tile. Maintained effect.} Wall of Fire 
 {722}{This spell creates a ball of superheated plasma, which streaks to the specified tile and explodes.} Fireflash
-{723}{This spell immolates the target creature, who gains fire resistance and extra fire damage with any unarmed attack. Maintained effect} Body of Fire 
+{723}{This spell immolates the target creature, who gains fire resistance and extra fire damage with any unarmed attack. Maintained effect. Non-Hostile spell.} Body of Fire 
 {724}{This spell summons a Fire Elemental, who will appear in the target tile and immediately attack the caster's enemies. Maintained effect} Call Fire Elemental 
-{725}{This spell raises the Beauty of the target creature by +4. Maintained effect} Purity of Water 
-{726}{This spell creates a billowing mist, centered on the target tile.} Call Fog 
+{725}{This spell raises the Beauty of the target creature by +4. Maintained effect. Non-Hostile spell.} Purity of Water 
+{726}{This spell creates a billowing mist, centered on the target tile. Maintained Effect.  Non-Hostile spell.} Call Fog 
 {727}{This spell creates a storm of ice and sleet centered on the target tile. Maintained effect} Squall of Ice 
-{728}{This spell liquefies the target creature, making him translucent and capable of water movement. Maintained effect} Body of Water 
+{728}{This spell liquefies the target creature, making him translucent and capable of water movement. Maintained effect. Non-Hostile Spell} Body of Water 
 {729}{This spell summons a Water Elemental, who will appear in the target tile and immediately attack the caster's enemies. Maintained effect} Call Water Elemental 
 {730}{This spell creates a deflective energy screen about the target, increasing its armor class and resistances. Maintained effect} Shield of Protection 
 {731}{This spell causes a surge of electricity to flow into all creatures within very close range.} Jolt
