@@ -283,14 +283,14 @@
 //
 {700}{On Cast: The target's weapon is knocked out of its hand. Hostile action without saving roll.} Disarm
 {701}{On Cast: Unlock the locked object permamently if Magic Aptitude is stronger than lock complexity. Hostile action.} Unlock Cantrip
-{702}{On Cast: The target is pushed back several squares, directly away from the caster, hostile action deals collision damage.} Unseen Force
-{703}{The caster is magickally transported to any empty accessible tile of his choosing. Non-Hostile spell.} Spactral Distortion
-{704}{The spell allows the caster and his group to teleport to a known location. Non-Hostile spell.} Teleport
-{705}{This spell will reveal the alignment of all creatures in the vicinity of the caster. Maintained effect Non-Hostile spell.} Sense Aligment
-{706}{This spell will reveal the contents of a container. Non-Hostile spell.} See Content
-{707}{This spell will reveal the character sheet of the target creature. Non-Hostile spell.} Read Aura
-{708}{This spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity. Maintained effect Non-Hostile spell.} Sense Hidden
-{709}{This spell will determine all of the magickal properties of one item in the caster's inventory. Non-Hostile spell.} Divine Magick 
+{702}{On Cast: The target is pushed back several squares, directly away from the caster. Hostile action deals collision damage.} Unseen Force
+{703}{On Cast: The caster is magickally transported to any empty accessible tile of his choosing. Non-Hostile spell.} Spactral Distortion
+{704}{On Cast: The caster and his group to teleport to a known location. Non-Hostile spell.} Teleport
+{705}{Maintained effect: spell will reveal the alignment of all creatures in the vicinity of the caster.} Sense Aligment
+{706}{On Cast: Spell will reveal the contents of a container. Non-Hostile spell.} See Content
+{707}{On Cast: Spell will reveal the character sheet of the target creature. Non-Hostile spell.} Read Aura
+{708}{Maintained effect: Spell will reveal all invisible creatures and objects as well as traps and trapped objects in the vicinity.} Sense Hidden
+{709}{On Cast: determine all of the magickal properties of one item in the caster's inventory.} Divine Magick 
 {710}{This spell raises the Constitution of the target creature by +4. Maintained effect Non-Hostile spell.} Vitality of Air 
 {711}{ON Cast Effect: Creates a cloud of caustic gas centered on the target tile gas deals 2-8 damage and apply poison, Player party is protected.} Poison Vapours 
 {712}{This spell creates a gust of wind, centered on the caster and blowing away in all directions.} Call Winds 
