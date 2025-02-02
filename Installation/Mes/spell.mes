@@ -281,75 +281,75 @@
 //
 // Spell Descriptions
 //
-{700}{Knocks the target's weapon out of its hand. Hostile spell without saving roll.} Disarm
+{700}{Knocks the target's weapon out of its hand. Hostile spell without saving roll.} Disarm //Resisted by target's (DX-0) but doesn't seem to do anything on success
 {701}{Unlocks the locked object permamently if Magick Aptitude is stronger than lock complexity. Hostile spell.} Unlocking Cantrip
-{702}{Pushes the target back 4 tiles directly away from the caster. Deals D:1-15 FT:1-15 on collision. Hostile spell.} Unseen Force //From some angles D:1-30 FT:1-30 
+{702}{Pushes the target back 4 tiles directly away from the caster. Deals D:1-15 FT:1-15 on collision. Hostile spell. Resisted by target's TA spell fails on sucess.} Unseen Force //From some angles D:1-30 FT:1-30 
 {703}{Magickally transports the caster to an empty accessible tile of his choosing up to 8 tiles away.} Spatial Distortion
 {704}{Brings the caster and his party to a select destination in the World Map. FT cost is paid twice.} Teleportation
 {705}{Reveals the alignment of all creatures.} Sense Aligment
 {706}{Reveals the contents of a container. Non-Hostile spell.} See Contents
-{707}{Reveals the character sheet of the target creature. Non-Hostile spell.} Read Aura
+{707}{Reveals the character sheet of the target creature. Non-Hostile spell. Resisted by target's TA spell fails on sucess.} Read Aura
 {708}{Reveals all invisible creatures and objects, raises Spot Trap skill up to max. allowed by its PE prerequisite.} Sense Hidden
 {709}{Identifies one selected magickal item in the caster's inventory.} Divine Magick 
 {710}{Raises the Constitution of the target creature by +4. Stacks with itself. Non-Hostile spell.} Vitality of Air 
-{711}{Creates a 3x3 cloud of caustic gas on target. Deals PD:15-50 FT:1-8 every 10 sec., MA scaled.} Poison Vapours 
-{712}{Creates a gust of wind centered on the caster and affects everyone around up to 5 tiles away. Affected targets are pushed 4 tiles directly away from the caster, deals D:1-15 FT:1-15 on collision. Hostile spell.} Call Winds //From some angles D:1-30 FT:1-30 
+{711}{Creates a 3x3 cloud of caustic gas on target. Deals PD:15-50 FT:1-8 every 10 sec., MA scaled.} Poison Vapours //Resisted by target's (CN-0) half damage on success for initial damage not maintain
+{712}{Creates a gust of wind centered on the caster and affects everyone around up to 5 tiles away. Affected targets are pushed 4 tiles directly away from the caster, deals D:1-15 FT:1-15 on collision. Hostile spell.} Call Winds //From some angles D:1-30 FT:1-30 //Resisted by target's (CN-5) doesn't seem to do anything on success  
 {713}{Transforms the target creature into an Air Elemental that can't attack but can cast spells. Removes worn items to inventory. Speed:+10, min. DR:95, FR:+7, ER:+5, min. PR:95. Non-Hostile spell.} Body of Air	
 {714}{Summons an Air Elemental: Can't hit but casts Disarm and Unseen Force. Speed:18. HP:98. All Resistances:80 except PR:95.} Call Air Elemental
 {715}{Raises the Strength of the target creature by +4. Stacks with itself. Non-Hostile spell.} Strength of Earth 
-{716}{Shoots a stone missile on target. Deals D:1-50, MA scaled.} Stone Throw 
+{716}{Shoots a stone missile on target. Deals D:1-50, MA scaled. Resisted by target's (CN-5) for half damage and TA for less damage on success.} Stone Throw 
 {717}{Creates 5 tile long impassable block of stone on target. Spells and ranged attacks pass it. Non-Hostile spell.} Wall of Stone 
 {718}{Transforms the target creature into an Earth Elemental. Removes worn items to inventory. Physical Damage Bonus:+5, ST:+10, Speed:-5, min. DR:50, FR:+11, min. PR:90. Non-Hostile spell.} Body of Stone 
 {719}{Summons an Earth Elemental: D:33-53 FT:9-10, Melee:11/20(Expert), Speed:9. HP:122. DR:FR:ER:80, PR:95.} Call Earth Elemental //MR:0
 {720}{Raises the Dexterity of the target creature by +4. Stacks with itself. Non-Hostile spell.} Agility of Fire 
 {721}{Creates 5 tile long wall of fire on target. Every turn deals D:2-10 FD:6-14, MA scaled.} Wall of Fire 
-{722}{Shoots a fireball on target that explodes in a 5x5 area. Deals FD:15-45, MA scaled.} Fireflash
+{722}{Shoots a fireball on target that explodes in a 5x5 area. Deals FD:15-45, MA scaled. Resisted by target's (CN-5) for half damage and TA for less damage on success.} Fireflash
 {723}{Transforms the target creature into a Fire Elemental. Removes worn items to inventory. FD Bonus:+15, min. FR:95, ER:+8, min. PR:95. Non-Hostile spell.} Body of Fire //min. PR:97
 {724}{Summons a Fire Elemental: FD:35-55, Melee:20/20(Master), Speed:18. HP:98. DR:30, FR:ER:PR:95.} Call Fire Elemental //MR:0
 {725}{Raises the Beauty of the target creature by +4. Stacks with itself. Non-Hostile spell.} Purity of Water 
 {726}{Creates a 3x3 billowing mist on target. Provides partial cover that lowers incoming and outgoing ranged attack hit chances. Non-Hostile spell.} Call Fog 
-{727}{Creates a 3x3 ice storm on target. Every turn deals D:4-20, MA scaled.} Squall of Ice 
+{727}{Creates a 3x3 ice storm on target. Every turn deals D:4-20, MA scaled.} Squall of Ice //Resisted by target's (CN-5) halves "a small part" of the initial damage. Insignificant reduction in both RT & TB.
 {728}{Transforms the target creature into a Water Elemental. Removes worn items to inventory. Fatigue Damage Bonus:+15, Max. Damage Bonus:0, Speed:-5, min. DR:95, min. ER:90, PR:+10. Non-Hostile Spell.} Body of Water 
 {729}{Summons a Water Elemental: D:16-36 FT:26-31, Melee:15/20(Expert), Speed:12. HP:98. DR:60, PR:50.} Call Water Elemental //FR:ER:MR:0
 {730}{Creates an energy shield on target. AC:+10. DR:FR:ER:0-50, MA scaled. Doesn't stack with itself. Non-Hostile spell.} Shield of Protection //Scales from TA100-MA100 unlike other spells that scale MA0-100
-{731}{Shocks every opponent around the caster. ED:2-25, MA scaled.} Jolt
+{731}{Shocks every opponent around the caster. ED:2-25, MA scaled. Resisted by target's (CN-10) for half damage and TA for less damage on success.} Jolt
 {732}{Creates 5 tile long impassable wall of force on target. Spells and ranged attacks pass it. Non-Hostile spell.} Wall of Force 
-{733}{Shoots a bolt of lightning on target. ED:20-70, MA scaled.} Bolt of Lightning 
-{734}{Disintegrates targeted objects, opponents and their items without saving roll.} Disintegrate 
-{735}{Increases alive target's reaction by +30 except animals. If cast on a target with WP:20, reduces reaction by -30. Doesn't stack with itself. Non-Hostile Spell.} Charm
-{736}{Stuns the target for 4 turns. Doesn't affect mechanized units. Hostile spell.} Stun
-{737}{Reduces targeted creature's WP by -50%. Doesn't affect mechanized units. Stacks with itself. Hostile spell.} Drain Will 
-{738}{Causes all alive creatures within 5 tiles of the caster to save or flee in terror. Hostile spell.} Nightmare
-{739}{Mind controls alive targets except animals. Hostile spell.} Dominate Will 
+{733}{Shoots a bolt of lightning on target. ED:20-70, MA scaled. Resisted by target's (CN-5) for half damage and TA for less damage on success.} Bolt of Lightning 
+{734}{Disintegrates targeted objects, opponents and their items without saving roll.} Disintegrate // Resisted by target's (CN-5) half damage on success. Doesn't matter because it deals ED:30.000 normally and deletes the target even if he doesn't die.
+{735}{Increases alive target's reaction by +30 except animals. If cast on a target with WP:20, reduces reaction by -30. Doesn't stack with itself. Non-Hostile Spell.} Charm //Resisted by target's (WP-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
+{736}{Stuns the target for 4 turns. Doesn't affect mechanized units. Hostile spell.} Stun //Resisted by target's (WP-5) doesn't seem to do anything on success.
+{737}{Reduces targeted creature's WP by -50%. Doesn't affect mechanized units. Stacks with itself. Hostile spell.} Drain Will //Resisted by target's (WP-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
+{738}{Causes all alive creatures within 5 tiles of the caster to save or flee in terror. Hostile spell. Resisted by target's (WP-5) spell fails on success.} Nightmare
+{739}{Mind controls alive targets except animals. Hostile spell.} Dominate Will //Resisted by target's (WP-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
 {740}{Sets the target creature's minimum Magick Resistance to 50. Non-Hostile spell.} Resist Magick 
-{741}{Cancels existing spell effects on target. Non-hostile spell.} Disperse Magick 
+{741}{Cancels existing spell effects on target. Non-hostile spell. Resisted by target's TA spell fails on sucess.} Disperse Magick 
 {742}{Target becomes immune to effects of tech items, spells, potions(except HP/FT) but can't cast spells. Non-Hostile spell.} Dweomer Shield //Still affected by Wall of Fire, Squall of Ice, Tempus Fugit, Fire Obstruction 
 {743}{Prevents the target creature from casting any spells. Non-Hostile spell.} Bonds of Magick
 {744}{Target gains all properties of Dweomer Shield but can cast spells and reflects targeted spells back to their caster. Reflected spells cost their FT to the maintainer of Reflect Shield. Non-Hostile spell.} Reflection Shield 
 {745}{Increases the target creature's unarmed damage by D:+2. Doesn't stack with itself. Non-Hostile spell.} Hardened Hands 
-{746}{Reduces target creature's ST by -5. Reduces DR:0-50, MA scaled. Doesn't stack with itself. Hostile spell.} Weaken //Scales from TA100-MA100 unlike other spells that scale MA0-100
-{747}{Shrinks target creature to half its size. Reduces Damage Bonus by -50%. Stacks with itself. Non-Hostile spell.} Shrink
-{748}{Turns target into an invulnerable stone for 10 sec. Hostile spell.} Flesh to Stone 
-{749}{Transforms target into a sheep. Removes worn items to inventory. Sets max. Damage Bonus to 1. Hostile spell.} Polymorph 
-{750}{Pacifies every animal around the caster up to 6 tiles away indefinitely. Their Reaction is set to 50.} Charm Beast 
-{751}{Conjures vines that hold down the target in place. Speed:-5. Non-Hostile spell.} Entangle 
-{752}{Mind controls the targeted animal. Hostile spell.} Control Beast 
+{746}{Reduces target creature's ST by -5. Reduces DR:0-50, MA scaled. Doesn't stack with itself. Hostile spell.} Weaken //Scales from TA100-MA100 unlike other spells that scale MA0-100 //Resisted by target's (CN-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
+{747}{Shrinks target creature to half its size. Reduces Damage Bonus by -50%. Stacks with itself. Non-Hostile spell.} Shrink //Resisted by target's (CN-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
+{748}{Turns target into an invulnerable stone for 10 sec. Hostile spell. Resisted by target's (CN-5) spell fails on success.} Flesh to Stone 
+{749}{Transforms target into a sheep. Removes worn items to inventory. Sets max. Damage Bonus to 1. Hostile spell.} Polymorph //Resisted by target's (CN-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
+{750}{Pacifies every animal around the caster up to 6 tiles away indefinitely. Their Reaction is set to 50. Resisted by target's (WP-5) spell fails on success.} Charm Beast 
+{751}{Conjures vines that hold down the target in place. Speed:-5. Non-Hostile spell. Resisted by target's (ST-1) spell fails on a successful hit.} Entangle 
+{752}{Mind controls the targeted animal. Hostile spell.} Control Beast //Resisted by target's (WP-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
 {753}{Summons Wolf(TA100-MA20), Cougar(MA21-40), Tiger(MA41-55), Grizzly Bear(MA56-70), Forest Ape(MA71-95), Vorpal Bunny(MA96-100).} Succour Beast 
 {754}{Every 10 sec. heals HP of everyone in caster's party for 1-7, MA scaled. Ends if everyone is fully healed. Doesn't stack with itself.} Regenerate 
-{755}{Deals D:3-40 on target, MA scaled.} Harm 
+{755}{Deals D:3-40 on target, MA scaled. Resisted by target's TA for less damage on success.} Harm 
 {756}{Allows caster to speak with the spirit of targeted corpse. Non-Hostile spell.} Conjure Spirit 
 {757}{Summons Decayed Soldier(TA100-MA20), Ragged Fighter(MA21-60), Skeleton Warrior(MA61-85), Undead Champion(MA86-100).} Summon Undead
-{758}{Reanimates the target as an undead follower. Target becomes permanently undead and cannot be resurrected to life.} Create Undead 
-{759}{Deals D:50-100 on target, MA scaled. Target is paralyzed during the spell effect (3 sec.).} Quench Life 
-{760}{Heals target's HP for 5-30, MA scaled. Doesn't affect mechanicals.} Minor Healing 
-{761}{Reduces target's poison levels by 50.} Halt Poison 
-{762}{Heals target's injuries, scars and HP for 40-80, MA scaled. Doesn't affect mechanicals.} Major Healing 
+{758}{Reanimates the target as an undead follower. Target becomes permanently undead and cannot be resurrected to life.} Create Undead //Targets has a chance (higher the TA higher the chance) to fail to die when the spell is cancelled but they still get aggro on player.
+{759}{Deals D:50-100 on target, MA scaled. Target is paralyzed during the spell effect (3 sec.). Resisted by target's (CN-5) for half damage and TA for less damage on success.} Quench Life 
+{760}{Heals target's HP for 5-30, MA scaled. Doesn't affect mechanicals. Resisted by target's TA spell fails on sucess.} Minor Healing 
+{761}{Reduces target's poison levels by 50. Resisted by target's TA spell fails on sucess.} Halt Poison 
+{762}{Heals target's injuries, scars and HP for 40-80, MA scaled. Doesn't affect mechanicals. Resisted by target's TA spell fails on sucess.} Major Healing 
 {763}{Makes the target invisible to undead unless provoked. Non-Hostile spell.} Sanctuary 
-{764}{Returns targeted corpse to life and heals all HP, poison, injuries, scars. Target's reaction raises to min. 70 if he was not an enemy before resurrection.} Resurrect 
+{764}{Returns targeted corpse to life and heals all HP, poison, injuries, scars. Target's reaction raises to min. 70 if he was not an enemy before resurrection. Resisted by target's TA spell fails on sucess.} Resurrect 
 {765}{Creates a light source attached on target that lowers light penalty around it. Doesn't stack with itself. Non-Hostile spell.} Illuminate 
-{766}{Blinds(TH:-30) the target creature for 10 sec. Doesn't affect mechanicals. Hostile spell.} Flash
+{766}{Blinds(TH:-30) the target creature for 10 sec. Doesn't affect mechanicals. Hostile spell. Resisted by target's (CN-5) spell fails on success.} Flash
 {767}{Raises the caster's AC by 60. Doesn't stack with itself.} Blur Sight 
-{768}{Summons an illusory demon: D:12-22 FT:3-7, Melee:11/20(Apprentice), Speed:9. HP:62. DR:20, FR:ER:15, PR:50, MR:40.} Phantasmal Fiend //Has a chance((PE-5)*3%) to be instantly killed on hit by attackers (Spells effects like "Stun" or "Disarm" can trigger this too.) 
+{768}{Summons an illusory demon: D:12-22 FT:3-7, Melee:11/20(Apprentice), Speed:9. HP:62. DR:20, FR:ER:15, PR:50, MR:40.} Phantasmal Fiend //Has a chance((PE-5)*3%) to be instantly killed on hit by attackers (Spells effects like "Stun" or "Disarm" can trigger this too.) //Has "Resist: (stat_willpower @ -5)" but why?
 {769}{Makes target invisible. Entering combat or casting spells breaks invisibility. Non-Hostile spell.} Invisibility 
 {770}{Conjures an insect swarm that slows down the target. Speed:-5. Doesn't stack with itself. Hostile spell.} Plague of Insects 
 {771}{Summons an Orc: D:2-9 FT:2-5, Melee:7/20, Speed:8. HP:47. All Resistances:0 except PR:55.} Orcish Champion 
@@ -357,9 +357,9 @@
 {773}{Summons a Demon: D:25-30, Melee:19/20(Master), Speed:15. HP:200. DR:30, FR:40, ER:25, PR:80, MR:20.} Hellgate
 {774}{Summons a permanent familiar, MA scaled. Strongest(MA76-100): D:18-26, Melee:20/20(Master), Speed:18. HP:111. AllRes:30.} Familiar //PR:75
 {775}{Locks any portal. The door or window cannot be lockpicked.} Magelock
-{776}{Halves the Speed of all creatures within 9 tiles of the caster. Doesn't stack with itself. Non-Hostile spell.} Congeal Time 
+{776}{Halves the Speed of all creatures within 9 tiles of the caster. Doesn't stack with itself. Non-Hostile spell.} Congeal Time //Resisted by target's (WP-5) FT maintain cost raises on success (dynamically, probably depending on rolls).
 {777}{Doubles the target creature's base Speed. Doesn't stack with itself. Non-Hostile spell.} Hasten  
-{778}{Paralyzes the target creature. Hostile spell.} Stasis
+{778}{Paralyzes the target creature. Hostile spell.} Stasis //Resisted by target's (WP-10) FT maintain cost raises on success (dynamically, probably depending on rolls).
 {779}{Speed:+10 to the caster and his party, Speed:-10 to everyone else in the world. Doesn't stack with itself. Non-Hostile Spell.} Tempus Fugit 
 //
 // Magick-Item Spell Descriptions
