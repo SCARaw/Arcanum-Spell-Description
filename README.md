@@ -4,6 +4,14 @@ After nice development of previous mod
 https://github.com/SCARaw/Arcanum-Item-Description-Project  
 This mod will take a look at spells descriptions in Arcanum  
 Goal of the mod is to combine Corrected version of Original description with Hard Gamer Data and spell classification
+  
+## General Rules regarding Spells ##
+-Spell masteries raise the "time of FT drain of maintained spells" from 10 to 20 and "spell effect apply time" raises to 20 too. They tick every 20 sec. Lowering effectiveness by half. (Poison Vapour, Regenerate etc.)  
+-Spell saving throws roll D20 vs (target's resist stat - spell's resist penalty)  
+if roll <= target's total point then the spell is resisted with one of the following effects: Halves the damage, Spell Fails, FT maintain cost raises  
+-AoE hostile spells don't affect party members.   
+This part is gonna get erased if we add it inside of description tho.  
+  
 ## Classification of spells  
 On cast Effect - Every spell does something on cast, we ignore it to save space  
 Maintained Spell - Spell that caster need to uphold and pay additional cost for it effects  
