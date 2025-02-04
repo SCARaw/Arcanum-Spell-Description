@@ -1,0 +1,107 @@
+{0}{Herbology}
+{1}{Chemistry}
+{2}{Electric}
+{3}{Explosives}
+{4}{Gun Smithy}
+{5}{Mechanical}
+{6}{Smithy}
+{7}{Therapeutics}
+{8}{Layman}
+{9}{Novice}
+{10}{Assistant}
+{11}{Associate}
+{12}{Technician}
+{13}{Engineer}
+{14}{Professor}
+{15}{Doctorate}
+{16}{The Herbology discipline concerns itself with the study of herbs and how they affect the body.}
+{17}{The Chemistry discipline studies man-made substances and their deleterious effects.}
+{18}{The Electric discipline explores the effects of charge and magnetism.}
+{19}{The Explosives discipline covers the research of new and unstable substances.}
+{20}{The Gun Smithy discipline controls the design and implementation of new weaponry.}
+{21}{The Mechanical discipline studies the physical properties of materials.}
+{22}{The Smithy discipline covers the construction of armors of all types.}
+{23}{The Therapeutics discipline explores pharmaceuticals and their interactions with each other.}
+
+// Anatomical degrees
+{24}{This is the lack of knowledge of a discipline.}
+{25}{Heal wounds quickly and easily! This elixir restores one's health and biological energies without rest or prolonged hospitalization.}
+{26}{This amazing elixir is has regenerative powers superior to those of any spell or incantation of magick!}
+{27}{This cure for poison is a must-have for any technologist adventurer who finds himself in quick need of an antidote! Perfect with morning tea!} 
+{28}{This unrivaled serum allows you to expend energy more efficiently!  Incredible!} 
+{29}{Accelerate the body's natural healing rate with this incomparable elixir!} 
+{30}{This regenerative product restores both your health and your energy!  Guaranteed!} 
+{31}{With this unbelievable elixir, all energy and health is revived!  All poisons are cured!  Impossible, but true!} 
+
+// Chemistry degrees
+{32}{This is the lack of knowledge of a discipline.}
+{33}{With this, even the most untested scientist can bring forth a poison to handle any infestation, orcish or otherwise!}
+{34}{This technological wonder allows even the most casual chemist the advantages of a mobile power source!}
+{35}{This astonishing product allows an individual to walk fearlessly through the most fearsome denizens of the forest!}
+{36}{This cantankerous compound immediately begins to corrode whatever it touches!}
+{37}{When used on any foe, Hallucinite creates the most fantastic and frightening illusions, all within your opponent's very mind!}
+{38}{This lethal liquid leaves your enemies completely disabled while you choose their fate!}
+{39}{Just one dose of this enigmatic elixir will have them drowsing for days!  Remarkable!}
+
+// Electric degrees
+{40}{This is the lack of knowledge of a discipline.}
+{41}{Carry a light into the darkest places without the discomfort usually produced by smoking, sputtering torches!}
+{42}{This ring gives the wearer increased reflexive performance and power!}
+{43}{This device is capable of sensing all manner of devious traps, even those of a magickal nature!  Stupendous!}
+{44}{One touch of this technological wonder unleashes a nightmarish electrical maelstrom!}
+{45}{The Chapeau of Magnetic Inversion creates a strong magnetic field that averts bullets and arrows with ease!}
+{46}{This wonderful piece of technology utilizes the body's own electrical impulses to achieve an increased rate of healing and regeneration!}
+{47}{This staff hurls raw bolts of energy at unsuspecting opponents!}
+
+// Explosives degrees
+{48}{This is the lack of knowledge of a discipline.}
+{49}{This hot little number makes any situation into an explosive extravaganza!  Try it today!}
+{50}{This remarkable gadget blinds and muddles opponents!  Strike as they cower in fear and confusion! }
+{51}{This wonderful device creates a billowing cloud of smoke that befuddles enemies!}
+{52}{Detonation of this versatile piece of technology stuns your enemies, leaving you the opportunity to casually run them through!  Unbelievable!}
+{53}{An explosive weapon of unmatched destructive power!}
+{54}{This wonder of the scientific age throws up a blazing wall of flame between you and your foes!}
+{55}{Light the fuse and watch the mayhem!  Dynamite can also be attached to doors and containers of all kinds!}
+
+// Gun Smithy degrees
+{56}{This is the lack of knowledge of a discipline.}
+{57}{A simple firearm that's perfect when there's just nothing else around!}
+{58}{A fine weapon which performs consistently and with greater magickal resistance!}
+{59}{This weapon fires more often, and with greater range, than standard pistols.}
+{60}{This fantastic firearm offers the versatility of a pistol without sacrificing the element of surprise!}
+{61}{The Looking Glass Rifle gives its user unparalleled range and accuracy!}
+{62}{With this unbelievable firearm, you've got a full arsenal you can hold in one hand!}
+{63}{A rifle with enough power to stop a stampeding pachyderm, as well as various species of orc and ogre!}
+
+// Mechanical degrees
+{64}{This is the lack of knowledge of a discipline.}
+{65}{This trap drives the spike through almost anything that steps on it!}
+{66}{This wonderful device, when placed upon any questionable door or container, springs any traps that might have been placed there!}
+{67}{This simple tool increases the chances of opening almost any conventional lock!}
+{68}{These glasses afford you increased visual perception, both during the day and at night!}
+{69}{Not only does this amazing device hold your prey, but it also does a considerable amount of damage while doing so!}
+{70}{This mechanical wonder is perfect for creating diversions and confounding the most dangerous foes!}
+{71}{A formidable technological companion!  And folds into a compact package for ease of transportation!}
+
+// Smithy degrees
+{72}{This is the lack of knowledge of a discipline.}
+{73}{An amalgam iron and steel that allows both increased strength and lightness!}
+{74}{This sword offers deadly speed and increased accuracy in battle!}
+{75}{A deadly weapon with only half the weight of a common axe!}
+{76}{The gauntlets offer their wearer increased protection, as well as hand-to-hand power when it's needed!}
+{77}{Gives you unequaled and, more importantly, unobstructed vision when the situation arises!}
+{78}{A versatile chainmail with the same protection but half the weight!}
+{79}{An armor with unrivaled bodily protection, while also allowing the wearer to move about with less noise and ruckus than standard Plate!}
+
+// Therapeutics degrees
+{80}{This is the lack of knowledge of a discipline.}
+{81}{With this elixir, you'll be able to talk circles around the most sharp-witted scholar!}
+{82}{One swallow of this elixir makes you a muscle-bound marvel!}
+{83}{Just one dose of this elixir, and you'll have increased visual perception!}
+{84}{Never be undone by a slow set of reflexes again!  Increase your speed and dexterity!}
+{85}{This technological wonder allows greater mental feats, increased mental stamina, and better perception when the need arises!}
+{86}{This tonic that provides you with unparalleled physical stature!  Go from hapless to Hero in seconds!}
+{87}{Become an unstoppable, physical force while mentally moving mountains!  Astonishing!}
+
+{88}{You already know this schematic.}
+{89}{You have learned a new schematic!}
