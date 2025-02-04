@@ -25,83 +25,83 @@
 
 // Anatomical degrees
 {24}{This is the lack of knowledge of a discipline.}
-{25}{Heal wounds quickly and easily! This elixir restores one's health and biological energies without rest or prolonged hospitalization.}
-{26}{This amazing elixir is has regenerative powers superior to those of any spell or incantation of magick!}
-{27}{This cure for poison is a must-have for any technologist adventurer who finds himself in quick need of an antidote! Perfect with morning tea!} 
-{28}{This unrivaled serum allows you to expend energy more efficiently!  Incredible!} 
-{29}{Accelerate the body's natural healing rate with this incomparable elixir!} 
-{30}{This regenerative product restores both your health and your energy!  Guaranteed!} 
-{31}{With this unbelievable elixir, all energy and health is revived!  All poisons are cured!  Impossible, but true!} 
+{25}{Heals 20pts of Health. 5 units are made.} Healing Salve
+{26}{Restores 20pts of Fatigue. 4 units are made.} Fatigue Restorer
+{27}{Reduces 80 Poison Levels. 3 units are made.} Poison Cure
+{28}{Halves Fatigue consumption for 180 seconds. 2 units are made.} Fatigue Limiter
+{29}{Heals 1pt of Health every 4 second for 100 seconds. 1 unit is made.} Accelerate Healing
+{30}{Heals 60 Health and restores 60 Fatigue. 1 unit is made.} Wonder Drug
+{31}{Heals all Health, injuries, scars, cures all Poison and restores 160 Fatigue. 1 unit is made.} Cure All
 
 // Chemistry degrees
 {32}{This is the lack of knowledge of a discipline.}
-{33}{With this, even the most untested scientist can bring forth a poison to handle any infestation, orcish or otherwise!}
-{34}{This technological wonder allows even the most casual chemist the advantages of a mobile power source!}
-{35}{This astonishing product allows an individual to walk fearlessly through the most fearsome denizens of the forest!}
-{36}{This cantankerous compound immediately begins to corrode whatever it touches!}
-{37}{When used on any foe, Hallucinite creates the most fantastic and frightening illusions, all within your opponent's very mind!}
-{38}{This lethal liquid leaves your enemies completely disabled while you choose their fate!}
-{39}{Just one dose of this enigmatic elixir will have them drowsing for days!  Remarkable!}
+{33}{Applies +290 Poison Level to the target. 3 units are made.} Strong Poison
+{34}{Used and consumed for various technological items. 50 units are made.} Charges
+{35}{Prevents wild animals from attacking the target for 338 seconds. 1 unit is made.} Animal Scent
+{36}{Explodes in a 5x5 area for 10-100 acid damage to items. 1 unit is made.} Corrosive Acid
+{37}{When applied to the target, it causes living creatures to flee in terror. 1 unit is made.} Hallucinite
+{38}{Paralyzes the target for 6 seconds. 1 unit is made.} Paralyzer
+{39}{Deals Fatigue damage:10+CurrentFT to the target. 1 unit is made.} Anaesthisizer
 
 // Electric degrees
 {40}{This is the lack of knowledge of a discipline.}
-{41}{Carry a light into the darkest places without the discomfort usually produced by smoking, sputtering torches!}
-{42}{This ring gives the wearer increased reflexive performance and power!}
-{43}{This device is capable of sensing all manner of devious traps, even those of a magickal nature!  Stupendous!}
-{44}{One touch of this technological wonder unleashes a nightmarish electrical maelstrom!}
-{45}{The Chapeau of Magnetic Inversion creates a strong magnetic field that averts bullets and arrows with ease!}
-{46}{This wonderful piece of technology utilizes the body's own electrical impulses to achieve an increased rate of healing and regeneration!}
-{47}{This staff hurls raw bolts of energy at unsuspecting opponents!}
+{41}{Equipped in the shield slot. Sheds light around the user, reducing the light penalty, TA scaled.} Electric Light
+{42}{Dexterity:(+2) TC:25.} Charged Ring
+{43}{Equipped in the shield slot. Detects Traps, TA scaled, Requires Charges. AC:10 TC:40.} Flow Specktrometer
+{44}{Melee weapon: D:1-6 FT:1-3 ED:1-10 Speed:8 Requires Charges MSR:5 TC:90.} Shocking Staff
+{45}{Helmet: Its magnetic inversion bubble provides protection with DR:20, TC:50.} Chapeau of Magnetic Inversion
+{46}{Every 5 second uses 1 Charge to heal +4 Health. AC:8 DR:14 FR:5 TC:80.} Healing Jacket
+{47}{Firearms weapon: D:1-4 ED:10-40 Speed:5 RNG:15 Requires Charges MSR:8 TC:55.} Tesla Rod
 
 // Explosives degrees
 {48}{This is the lack of knowledge of a discipline.}
-{49}{This hot little number makes any situation into an explosive extravaganza!  Try it today!}
-{50}{This remarkable gadget blinds and muddles opponents!  Strike as they cower in fear and confusion! }
-{51}{This wonderful device creates a billowing cloud of smoke that befuddles enemies!}
-{52}{Detonation of this versatile piece of technology stuns your enemies, leaving you the opportunity to casually run them through!  Unbelievable!}
-{53}{An explosive weapon of unmatched destructive power!}
-{54}{This wonder of the scientific age throws up a blazing wall of flame between you and your foes!}
-{55}{Light the fuse and watch the mayhem!  Dynamite can also be attached to doors and containers of all kinds!}
+{49}{Explodes in a 5x5 area, D:3-15 FD:3-15, Knockback for 4 tiles. Accuracy is determined by the Throwing skill. 1 unit is made.} Molotov Cocktail
+{50}{Explodes in a 5x5 area. Causes blindness(TH:-30) for 10 seconds. Accuracy is determined by the Throwing skill. 5 units are made.} Flash Grenade
+{51}{Creates a 3x3 smoke veil for 10 seconds. Its cover reduces ranged attack TH and makes prowling easier. Accuracy is determined by the Throwing skill. 5 units are made.} Smoke Grenade
+{52}{Explodes in a 7x7 area. Stuns living targets for 1-5 seconds. Accuracy is determined by the Throwing skill. 4 units are made} Stun Grenade
+{53}{Explodes in a 5x5 area. D:5-30 FD:5-30, Knockback for 4 tiles. Accuracy is determined by the Throwing skill. 3 units are made.} Explosive Grenade
+{54}{Creates a 3x3 fire curtain for 10 seconds, damaging all who are inside it. Accuracy is determined by the Throwing skill. 3 units are made.} Fire Obstruction
+{55}{Explodes in a 5x5 area. D:100-200 FD:5-20, fuse is 11 seconds. 1 unit is made.} Dynamite
 
 // Gun Smithy degrees
 {56}{This is the lack of knowledge of a discipline.}
-{57}{A simple firearm that's perfect when there's just nothing else around!}
-{58}{A fine weapon which performs consistently and with greater magickal resistance!}
-{59}{This weapon fires more often, and with greater range, than standard pistols.}
-{60}{This fantastic firearm offers the versatility of a pistol without sacrificing the element of surprise!}
-{61}{The Looking Glass Rifle gives its user unparalleled range and accuracy!}
-{62}{With this unbelievable firearm, you've got a full arsenal you can hold in one hand!}
-{63}{A rifle with enough power to stop a stampeding pachyderm, as well as various species of orc and ogre!}
+{57}{D:2-6 FT:1-4 Speed:5 TH:+5 RNG:15 MSR:5/7 TC:20. Bullets used per shot:1} Hand Crafted Flintlock
+{58}{D:3-12 FT:3-9 Speed:12 TH:+5 RNG:15 MSR:5/7 TC:35. Bullets used per shot:1} Fine Revolver
+{59}{D:5-12 FT:1-8 Speed:14 RNG:15 MSR:8 TC:50. Bullets used per shot:2.} Repeater Rifle
+{60}{Doesn't alarm nearby enemies with sound. D:2-9 FT:2-5 Speed:8 RNG:9 MSR:5/7 TC:30. Bullets used per shot:1} Hushed Revolver
+{61}{D:10-30 FT:1-15 Speed:1 TH:+20 RNG:25 MSR:8 TC:70. Bullets used per shot:1} Looking Glass Rifle
+{62}{D:5-35 FT:1-10 Speed:8 RNG:12 MSR:5/7 TC:85. Bullets used per shot:1} Hand Cannon
+{63}{D:20-50 FT:1-15 Speed:4 RNG:15 MSR:12 TC:80. Bullets used per shot:2} Elephant Gun
 
 // Mechanical degrees
 {64}{This is the lack of knowledge of a discipline.}
-{65}{This trap drives the spike through almost anything that steps on it!}
-{66}{This wonderful device, when placed upon any questionable door or container, springs any traps that might have been placed there!}
-{67}{This simple tool increases the chances of opening almost any conventional lock!}
-{68}{These glasses afford you increased visual perception, both during the day and at night!}
-{69}{Not only does this amazing device hold your prey, but it also does a considerable amount of damage while doing so!}
-{70}{This mechanical wonder is perfect for creating diversions and confounding the most dangerous foes!}
-{71}{A formidable technological companion!  And folds into a compact package for ease of transportation!}
+{65}{Armed on the floor, it deals D:15-25 damage when stepped on. 3 units are made.} Spike Trap
+{66}{Safely triggers traps on doors or containers. 3 units are made.} Trap Springer
+{67}{Bonus to Picklocks skill +10%.} Auto Skeleton Key
+{68}{Helmet: Perception:(+2) TC:85.} Eye Gear
+{69}{Deals D:5-10 damage and immobilises the target for 10 seconds. 3 units are made.} Bear Trap
+{70}{When deployed, it moves randomly and draws enemy attention. 2 units are made.} Clockwork Decoy
+{71}{It can be activated to become a follower without counting towards the maximum follower limit. Can be repaired and reused if not destroyed. D:8-18, Melee:20/20 (Expert), Speed:18, HP:60, DR:30, FR:40, ER:10, PR:95, MR:80.} Mechanized Arachnid
 
 // Smithy degrees
 {72}{This is the lack of knowledge of a discipline.}
-{73}{An amalgam iron and steel that allows both increased strength and lightness!}
-{74}{This sword offers deadly speed and increased accuracy in battle!}
-{75}{A deadly weapon with only half the weight of a common axe!}
-{76}{The gauntlets offer their wearer increased protection, as well as hand-to-hand power when it's needed!}
-{77}{Gives you unequaled and, more importantly, unobstructed vision when the situation arises!}
-{78}{A versatile chainmail with the same protection but half the weight!}
-{79}{An armor with unrivaled bodily protection, while also allowing the wearer to move about with less noise and ruckus than standard Plate!}
+{73}{Ingredient for crafting other items. 1 unit is made.} Pure Ore
+{74}{D:3-12 FT:3-9 MSR:6/8 TC:5.} Balanced Sword
+{75}{D:1-16 FT:3-11 MSR:4/6 TC:20.} Feather-Weight Axe
+{76}{AC:3 DR:5 D:+7 TC:15.} Dwarven Gauntlets
+{77}{Doesn't have the usual PE:-1 penalty. AC:3 DR:7 TC:10.} Helmet of Vision
+{78}{AC:13 DR:24 FR:5 ER:-10 NP:-25 TC:20, MA raises its weight (DR for Small size:23, Large size:25).} Feather-Weight Chainmail 
+{79}{AC:20 DR:40 FR:30 NP:-35 TC:20 (DR for Small size:35, Large size:45).} Elite Platemail
 
 // Therapeutics degrees
 {80}{This is the lack of knowledge of a discipline.}
-{81}{With this elixir, you'll be able to talk circles around the most sharp-witted scholar!}
-{82}{One swallow of this elixir makes you a muscle-bound marvel!}
-{83}{Just one dose of this elixir, and you'll have increased visual perception!}
-{84}{Never be undone by a slow set of reflexes again!  Increase your speed and dexterity!}
-{85}{This technological wonder allows greater mental feats, increased mental stamina, and better perception when the need arises!}
-{86}{This tonic that provides you with unparalleled physical stature!  Go from hapless to Hero in seconds!}
-{87}{Become an unstoppable, physical force while mentally moving mountains!  Astonishing!}
+{81}{Raises Persuasion by +2/20 for 27 minutes. 3 units are made.} Elixir of Persuasion //Duration changes depending on RT-TB game state (27/33/39 minutes)
+{82}{Raises Strength by +2 for 27 minutes. 3 units are made.} Elixir of Physical Prowess //Duration changes depending on RT-TB game state (27/33/39 minutes)
+{83}{Raises Perception by +2 for 27 minutes. 3 units are made.} Liquid of Awareness //Duration changes depending on RT-TB game state (27/33/39 minutes)
+{84}{Raises Dexterity by +2 for 27 minutes. 3 units are made.} Tonic of Increased Reflexes //Duration changes depending on RT-TB game state (27/33/39 minutes)
+{85}{Raises Mental Stats by +2 for 27 minutes. 1 unit is made.} Mind Marvel //Duration changes depending on RT-TB game state (27/33/39 minutes)
+{86}{Raises Physical Stats by +2 for 27 minutes. 1 unit is made.} Energizer //Duration changes depending on RT-TB game state (27/33/39 minutes)
+{87}{Raises All Stats by +2 for 27 minutes. 1 unit is made.} Revitalizer //Duration changes depending on RT-TB game state (27/33/39 minutes)
 
 {88}{You already know this schematic.}
 {89}{You have learned a new schematic!}
