@@ -307,7 +307,7 @@
 {723}{Turns target to Fire Elemental. FD Bonus:+15, min. FR:95, min. PR:95. Non-Hostile spell.} Body of Fire //ER:+8, actually min. PR:97 but cap is 95
 {724}{Summons a Fire Elemental: FD:35-55, Melee:20/20 (Master), Speed:18, HP:98, DR:30, FR:ER:PR:95.} Call Fire Elemental //MR:0
 {725}{Raises the Beauty of the target creature by +4. Stacks. Non-Hostile spell.} Purity of Water 
-{726}{Creates a 3x3 fog on target. Its cover lowers incoming and outgoing ranged attack hit chances. Non-Hostile spell.} Call Fog 
+{726}{Creates a 3x3 fog on target. Its cover reduces ranged attack TH and makes prowling easier. Non-Hostile spell.} Call Fog 
 {727}{Creates a 3x3 storm of ice and sleet on target. Every turn deals D:4-20, MA scaled.} Squall of Ice //Resisted by (CN-5), halves "a small part" of the initial damage. Insignificant reduction in both RT & TB.
 {728}{Turns target to Water Elemental. FT dmg:+15, max. Dmg Bonus:0, Speed:-5, minDR:95, minER:90. Non-Hostile spell} Body of Water // PR:+10
 {729}{Summons a Water Elemental: D:16-36 FT:26-31, Melee:15/20 (Expert), Speed:12. HP:98. DR:60, PR:50.} Call Water Elemental //FR:ER:MR:0
