@@ -57,7 +57,7 @@
 {48}{This is the lack of knowledge of a discipline.}
 {49}{Explodes in a 5x5 area, D:3-15 FD:3-15, Knockback for 4 tiles. Accuracy is determined by the Throwing skill. 1 unit is made.} Molotov Cocktail
 {50}{Explodes in a 5x5 area. Causes blindness(TH:-30) for 10 seconds. Accuracy is determined by the Throwing skill. 5 units are made.} Flash Grenade
-{51}{Creates a 3x3 smoke veil for 10 seconds. Its cover reduces ranged attack TH and makes prowling easier. Accuracy is determined by the Throwing skill. 5 units are made.} Smoke Grenade
+{51}{Creates 3x3 smoke veil for 10 seconds. Its cover reduces ranged attack TH and makes prowling easier. Accuracy is determined by the Throwing skill. 5 units are made.} Smoke Grenade
 {52}{Explodes in a 7x7 area. Stuns living targets for 1-5 seconds. Accuracy is determined by the Throwing skill. 4 units are made} Stun Grenade
 {53}{Explodes in a 5x5 area. D:5-30 FD:5-30, Knockback for 4 tiles. Accuracy is determined by the Throwing skill. 3 units are made.} Explosive Grenade
 {54}{Creates a 3x3 fire curtain for 10 seconds, damaging all who are inside it. Accuracy is determined by the Throwing skill. 3 units are made.} Fire Obstruction
@@ -81,7 +81,7 @@
 {68}{Helmet: Perception:(+2) TC:85.} Eye Gear
 {69}{Deals D:5-10 damage and immobilises the target for 10 seconds. 3 units are made.} Bear Trap
 {70}{When deployed, it moves randomly and draws enemy attention. 2 units are made.} Clockwork Decoy
-{71}{It can be activated to become a follower without counting towards the maximum follower limit. Can be repaired and reused if not destroyed. D:8-18, Melee:20/20 (Expert), Speed:18, HP:60, DR:30, FR:40, ER:10, PR:95, MR:80.} Mechanized Arachnid
+{71}{When thrown, it becomes a follower that doesn't count towards follower limit. D:8-18, Melee:20/20 (Expert), Speed:18, HP:60, DR:30, FR:40, ER:10, PR:95, MR:80.} Mechanized Arachnid
 
 // Smithy degrees
 {72}{This is the lack of knowledge of a discipline.}
