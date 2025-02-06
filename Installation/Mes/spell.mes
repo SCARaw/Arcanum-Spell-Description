@@ -339,7 +339,7 @@
 {755}{Deals D:3-40 on target, MA scaled. Resisted by TA, for less dmg.} Harm 
 {756}{Allows caster to speak with the spirit of targeted corpse. Non-Hostile spell.} Conjure Spirit 
 {757}{Summons Decayed Soldier, Ragged Fighter(MA21), Skeleton Warrior(MA61), Undead Champion(MA86).} Summon Undead
-{758}{Reanimates target as an undead follower. Target becomes permanently undead and cannot be resurrected to life.} Create Undead //Targets has a chance (higher the TA higher the chance) to fail to die when the spell is cancelled but they still get aggro on player.
+{758}{Reanimates target as an undead follower. Targeted corpse becomes undead and cannot be resurrected to life.} Create Undead //Targets has a chance (higher the TA higher the chance) to fail to die when the spell is cancelled but they still get aggro on player.
 {759}{D:50-100 on target, MA scaled. Paralyzes during spell (3 sec.) Resisted by (CN-5), for half dmg; TA, for less dmg.} Quench Life 
 {760}{Heals target 5-30HP, MA scaled. Doesn't affect mechanicals. Resisted by TA, spell fails.} Minor Healing 
 {761}{Reduces target's poison levels by 50. Resisted by TA, spell fails.} Halt Poison 
@@ -348,7 +348,7 @@
 {764}{Resurrects corpse, heals all HP, poison, injuries, scars. Sets min.70 reaction unless enemy. Resisted by TA, spell fails.} Resurrect 
 {765}{Creates a light source attached on target that lowers light penalty around it. Doesn't stack. Non-Hostile spell.} Illuminate 
 {766}{Blinds(TH:-30) target for 10 sec. Doesn't affect mechanicals. Resisted by (CN-5), spell fails. Hostile spell.} Flash
-{767}{Raises the caster's AC by 60. Doesn't stack.} Blur Sight 
+{767}{Raises the caster's AC by 60. Doesn't stack or scale.} Blur Sight 
 {768}{Summons an illusory demon: D:12-22 FT:3-7, Melee:11/20 (Apprentice), Speed:9, HP:62, DR:20, FR:ER:15, PR:50.} Phantasmal Fiend //MR:40 //Has a chance((PE-5)*3%) to be instantly killed on hit by attackers (Spells effects like "Stun" or "Disarm" can trigger this too.) //Has "Resist: (stat_willpower @ -5)" but why?
 {769}{Makes target invisible. Entering combat or casting spells break invisibility. Non-Hostile spell.} Invisibility 
 {770}{Conjures an insect swarm that slows down the target. Speed:-5. Doesn't stack. Hostile spell.} Plague of Insects 
