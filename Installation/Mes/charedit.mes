@@ -1,0 +1,128 @@
+{0}{Points}
+{1}{Level}
+{2}{XP Next}
+{3}{}
+{4}{Race}
+{5}{Gender}
+{6}{Age}
+{7}{Derived Stats}
+{8}{Resistance}
+{9}{Base} 
+{10}{Adj.}
+{11}{Total}
+{12}{Damage}
+{13}{Magick}
+{14}{Fire}
+{15}{Poison}
+{16}{Electrical}
+{17}{Stat has reached its maximum value.}
+{18}{You haven't enough character points.}
+{19}{You cannot reduce this stat below its last accepted level.}
+{20}{Stat has reached its minimum value.}
+{21}{Skill has reached its maximum value.}
+{22}{You must raise your stats first.}
+{23}{You cannot reduce this skill below its last accepted level.}
+{24}{You have no points in this skill.}
+{25}{Skill has reached its minimum value.}
+{26}{You must raise your Intelligence first.}
+{27}{You cannot sell back an accepted spell.}
+{28}{The stat cannot be lowered because the current level is a prerequisite for a skill.}
+{29}{Your Intelligence cannot be lowered because the current level is a prerequisite for a spell.}
+{30}{You are not high enough level to buy this spell.}
+{31}{Your Intelligence cannot be lowered because the current level is a prerequisite for a tech discipline.}
+{32}{You must raise your Strength first.}
+{33}{You must raise your Dexterity first.}
+{34}{You must raise your Constitution first.}
+{35}{You must raise your Beauty first.}
+{36}{You must raise your Willpower first.}
+{37}{You must raise your Perception first.}
+{38}{You must raise your Charisma first.}
+{39}{Your Willpower cannot be lowered because the current level is a prerequisite for a spell.}
+{40}{Fatigue}
+{41}{Quest}
+{42}{second}
+{43}{seconds}
+{44}{Minimum Level}
+
+{100}{Portrait
+This is the character's appearance.}
+{101}{Character Info
+This is some basic personal information.}
+{102}{Alignment Meter
+This is the character's alignment, a measure of good and evil.}
+{103}{Available Points
+These are the points available to spend on improving the character. One point is received each time the character goes up a level.}
+{104}{Level
+This is the character's current level. The experience points gained in the game will increase level and provide more points to spend.}
+{105}{Experience Needed
+This is the number of experience points needed to go up to the next level.}
+{106}{Health
+Damage will reduces hit points, and when it reaches 0, death occurs. Health is based on Strength and Willpower.}
+{107}{Fatigue
+Casting, encumbrance, and some damage will reduce fatigue points, and when it reaches 0, unconsciousness occurs. Fatigue is based on Constitution and Willpower.}
+{108}{Magick Tech Meter
+This scale displays magickal-technological aptitude. The higher the needle, the more magickal, and the lower, the more technological.}
+{109}{Strength
+As physical muscle power, Strength determines how much damage can be inflicted and absorbed. Weapons have a minimum strength to operate them effectively.}
+{110}{Constitution
+The endurance limits of the body, Constitution determines fatigue and resistance to poison and some spells.}
+{111}{Dexterity
+As overall body coordination, Dexterity affects default ability in more skills than any other stat.}
+{112}{Beauty
+As physical appearance, Beauty affects the initial reaction of people to this character.}
+{113}{Intelligence
+As mental power, Intelligence affects several skills as well as being the limiting factor in the learning of spells and technological skills.}
+{114}{Willpower
+The ability to resist mental influences, Willpower limits spell casting, affects Haggle and contributes to hit points, fatigue and certain spell resistances.}
+{115}{Perception
+The ability to notice surroundings, Perception also affects the ability to use ranged weapons effectively.}
+{116}{Charisma
+The sum of personality and charm, Charisma affects the ability to persuade others and change their initial reaction.}
+{117}{Derived Stats
+These are stats that are based on the basic stats above. Spells and items may modify these as well.}
+{118}{Carry Weight
+This is the total amount of equipment that can be carried and is based on Strength.}
+{119}{Damage Bonus
+This is extra damage inflicted by any melee attack and is based on Strength.}
+{120}{Armor Class Adjustment
+This is an improvement to AC which makes the character harder to hit. This is based on Dexterity.}
+{121}{Speed
+At higher Speed, the character moves faster and makes more attacks. Speed can be modified by encumbrance and weapon choice. Speed is based on Dexterity.}
+{122}{Heal Rate
+This is the rate at which hit points are recovered and is based on Constitution.}
+{123}{Poison Recovery
+This is the rate at which poison is metabolized, which reduces the damage taken by it. It is based on Constitution.}
+{124}{Reaction Modifier
+This is the adjustment to the initial reaction that others have. It is based on Beauty.}
+{125}{Maximum Followers
+This is the maximum number of people who follow this character because of leadership. It is based on Charisma.}
+{126}{Resistance
+There are five basic resistances that can range from 0 to 95%. Items, background, race, and magick can modify all resistances.}
+{127}{Damage Resistance
+This is a general resistance to damage caused by weapons and physical attacks.}
+{128}{Magick Resistance
+This is resistance to magick spells and effects. Unlike Technological Aptitude, magick resistance does not affect the use of items or spells.}
+{129}{Fire Resistance
+This is resistance to damage by fire and spells that produce fire.}
+{130}{Poison Resistance
+This is resistance to damage caused by any kind of poisoning, whether natural, man-made, or supernatural. It is affected by Constitution.}
+{131}{Electrical Resistance
+This is resistance to damage by electricity and lightning from spells or technological devices.}
+{132}{Skills
+This button will activate the display of skills below. Skills come in four groups: Combat, Thieving, Social, and Technological.}
+{133}{Technological Disciplines
+This button will activate the display of technological disciplines below. There are eight disciplines, each with 7 available degrees.}
+{134}{Spell Colleges
+This button will activate the display of spell colleges below. There are 16 colleges, each with 5 available spells.}
+{135}{Combat Skills
+These are the skills used primarily to attack and defend oneself during combat.}
+{136}{Thieving Skills
+These are skills used primarily by thieves, although they have other noncriminal uses too.}
+{137}{Social Skills
+These are the skills used on other people or in social situations.}
+{138}{Technological Skills
+These are skills that dabble in technology. Buying these skills will increase Technological Aptitude.}
+{139}{Current Degree
+This is the current degree in the selected technological discipline. The number to the right is Expertise and controls what kinds of schematics may be used.}
+{140}{Auto-Level Schemes
+This button will activate the display of available auto-level schemes. These schemes spend character points automatically.}
