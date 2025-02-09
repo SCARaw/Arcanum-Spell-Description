@@ -49,35 +49,35 @@ This is the character's appearance.}
 {101}{Character Info
 This is some basic personal information.}
 {102}{Alignment Meter
-This is the character's alignment, a measure of good and evil.}
+This is the character's alignment, a measure of good (1 to 100) and evil (-1 to -100).}
 {103}{Available Points
 These are the points available to spend on improving the character. One point is received each time the character goes up a level.}
 {104}{Level
 This is the character's current level. The experience points gained in the game will increase level and provide more points to spend.}
 {105}{Experience Needed
 This is the number of experience points needed to go up to the next level.}
-{106}{Health
-Damage will reduces hit points, and when it reaches 0, death occurs. Health is based on Strength and Willpower.}
-{107}{Fatigue
-Casting, encumbrance, and some damage will reduce fatigue points, and when it reaches 0, unconsciousness occurs. Fatigue is based on Constitution and Willpower.}
+{106}{Health (HP)
+Damage reduces hit points, and when it reaches 0, death occurs. Health is based on Strength and Willpower. Upon leveling up, maximum HP increases by +2.}
+{107}{Fatigue (FT)
+Casting, encumbrance, and some damage reduces FT, when it reaches 0, unconsciousness occurs. FT is based on CN and WP. Upon leveling up, maximum FT increases by +2.}
 {108}{Magick Tech Meter
-This scale displays magickal-technological aptitude. The higher the needle, the more magickal, and the lower, the more technological.}
-{109}{Strength
-As physical muscle power, Strength determines how much damage can be inflicted and absorbed. Weapons have a minimum strength to operate them effectively.}
-{110}{Constitution
-The endurance limits of the body, Constitution determines fatigue and resistance to poison and some spells.}
-{111}{Dexterity
-As overall body coordination, Dexterity affects default ability in more skills than any other stat.}
-{112}{Beauty
-As physical appearance, Beauty affects the initial reaction of people to this character.}
-{113}{Intelligence
-As mental power, Intelligence affects several skills as well as being the limiting factor in the learning of spells and technological skills.}
-{114}{Willpower
-The ability to resist mental influences, Willpower limits spell casting, affects Haggle and contributes to hit points, fatigue and certain spell resistances.}
-{115}{Perception
-The ability to notice surroundings, Perception also affects the ability to use ranged weapons effectively.}
-{116}{Charisma
-The sum of personality and charm, Charisma affects the ability to persuade others and change their initial reaction.}
+Magickal(MA)-Technological(TA) Aptitude scale: The higher the needle, the more magickal (max. 100 MA), and the lower, the more technological (max. 100 TA).}
+{109}{Strength (ST)
+Each point increases HP+2, Carry Weight+500, Damage Bonus+1. Weapons have Min. Strength Requirement, each point below MSR=TH-5. ST:20 Bonus: Damage Bonus x2.}
+{110}{Constitution (CN)
+Each point= FT+2, Poison Recovery+1, Poison Resist+5 (After CN:4). Heal Rate raises at CN:5,8,11,14,17. CN resist some hostile spells. CN:20 Bonus: Poison Immunity.}
+{111}{Dexterity (DX)
+Each point increases Speed+1, Armor Class+1.                      At 14 Dexterity, you cannot slip on ice.                          DX:20 Bonus: Speed+5.}
+{112}{Beauty (BE)
+Each point increases the Reaction Modifier.                         Reaction Modifier reaches 100 at BE:20 with its bonus.   BE:20 Bonus: Reaction Modifier:+25.} //From BE:1 to BE:21 -> -65, -52, -42, -33, -25, -18, -12, -7, -3, 0, 3, 7, 12, 18, 25, 33, 42, 52, 65, 100, 110
+{113}{Intelligence (IN)
+Each 4 points grant 1 spell maintain box. IN:5+ is required to cast spells or use scrolls, below 5 IN uses dumb speech. IN:20 Bonus: +10% success rate for most skills.} //Doesn't affect: Backstab. Affects: Melee, Bow, Throwing, Prowling, Haggle, Repair, Heal, (Probably Pickpocket). rest?
+{114}{Willpower (WP)
+Each point increases Health+1, Fatigue+1.                         Willpower resists some hostile spells.                               WP:20 Bonus: Immunity to all spells resisted by WP.}
+{115}{Perception (PE)
+Each 2 points reduce aim distance TH penalty(-5 per step) by 1 step. Increases maximum scroll distance on screen. PE:20 Bonus: See invisible beings.} // PE doesn't raise the range for discovering new locations on World Map.
+{116}{Charisma (CH)
+Each 4 points increase the max. follower cap by 1 (min. 1). Roughly half of the dialogue checks are based on CH.        CH:20 Bonus: Followers won't leave unless kicked.}
 {117}{Derived Stats
 These are stats that are based on the basic stats above. Spells and items may modify these as well.}
 {118}{Carry Weight
