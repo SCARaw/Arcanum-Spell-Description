@@ -59,15 +59,15 @@ This is the number of experience points needed to go up to the next level.}
 {106}{Health (HP)
 Damage reduces hit points, and when it reaches 0, death occurs. Health is based on Strength and Willpower. Upon leveling up, maximum HP increases by +2.}
 {107}{Fatigue (FT)
-Casting, encumbrance, and some damage reduces FT, when it reaches 0, unconsciousness occurs. FT is based on CN and WP. Upon leveling up, maximum FT increases by +2.}
+Casting, encumbrance, some damage reduce FT. At 0, you faint. FT replenishes equal to Heal Rate, every 10 sec. Max FT raises +2 on leveling and FT is based on CN and WP.}
 {108}{Magick Tech Meter
 Magickal(MA)-Technological(TA) Aptitude scale: The higher the needle, the more magickal (max. 100 MA), and the lower, the more technological (max. 100 TA).}
 {109}{Strength (ST)
-Each point increases HP+2, Carry Weight+500, Damage Bonus+1. Weapons have Min. Strength Requirement, each point below MSR=TH-5. ST:20 Bonus: Damage Bonus x2.}
+Each point= HP+2, Carry Weight+500, Damage Bonus+1 (0,5 till ST:10). Weapons have Min. Strength Requirement each pt. below MSR=TH-5. ST:20 Bonus:DamageBonusx2}
 {110}{Constitution (CN)
 Each point= FT+2, Poison Recovery+1, Poison Resist+5 (After CN:4). Heal Rate raises at CN:5,8,11,14,17. CN resist some hostile spells. CN:20 Bonus: Poison Immunity.}
 {111}{Dexterity (DX)
-Each point increases Speed+1, Armor Class+1.                      At 14 Dexterity, you cannot slip on ice.                          DX:20 Bonus: Speed+5.}
+Each point increases Speed+1, Armor Class Adjustment+1. At 14 Dexterity, you cannot slip on ice.                       DX:20 Bonus: Speed+5.}
 {112}{Beauty (BE)
 Each point increases the Reaction Modifier.                         Reaction Modifier reaches 100 at BE:20 with its bonus.   BE:20 Bonus: Reaction Modifier:+25.} //From BE:1 to BE:21 -> -65, -52, -42, -33, -25, -18, -12, -7, -3, 0, 3, 7, 12, 18, 25, 33, 42, 52, 65, 100, 110
 {113}{Intelligence (IN)
@@ -81,32 +81,32 @@ Each 4 points increase the max. follower cap by 1 (min. 1). Roughly half of the 
 {117}{Derived Stats
 These are stats that are based on the basic stats above. Spells and items may modify these as well.}
 {118}{Carry Weight
-This is the total amount of equipment that can be carried and is based on Strength.}
+This is max. carry weight up to 10,000 at ST:20. Penalty rises every 15% of Carry Weight in 6 steps, at Speed:-2 per step. Can't run and FT drains at Significant(60%).}  Significant(FT:-7 in 75 sec.), Heavy (FT:-1 in 7.5 sec.), Severe(Speed:-4 with step malus:-6, FT:-1 in 5 turns), FT drains stops at FT:4
 {119}{Damage Bonus
 This is extra damage inflicted by any melee attack and is based on Strength.}
-{120}{Armor Class Adjustment
-This is an improvement to AC which makes the character harder to hit. This is based on Dexterity.}
+{120}{Armor Class(AC) Adjustment
+This extra AC adds to the total. Total AC ranges 0-95, each AC point reducing attacker's base TH by 0.50% multiplicatively, up to 48% max reduction. Based on DX.}
 {121}{Speed
-At higher Speed, the character moves faster and makes more attacks. Speed can be modified by encumbrance and weapon choice. Speed is based on Dexterity.}
+Speed affects the number of Action Points, movement and attack animation speeds. It's influenced by encumbrance, ranges 1-100 and is based on Dexterity.}
 {122}{Heal Rate
-This is the rate at which hit points are recovered and is based on Constitution.}
+Its value shows how many hit points are restored in 1 hour of sleep and how much FT regenerates every 10 sec. It ranges 1-6 and is based on Constitution.}
 {123}{Poison Recovery
-This is the rate at which poison is metabolized, which reduces the damage taken by it. It is based on Constitution.}
+Reduces poison levels every 15 sec. It ranges 1-20 and is based on Constitution.}
 {124}{Reaction Modifier
-This is the adjustment to the initial reaction that others have. It is based on Beauty.}
+Affects dialogue and merchant prices. Below 1, people usually attack on sight. For 1-40, people dislike you. For 41+, there are various stages of like. It's based on Beauty.}
 {125}{Maximum Followers
-This is the maximum number of people who follow this character because of leadership. It is based on Charisma.}
+This is the maximum number of followers. Summons, mechanical creations and some quest followers don't count toward the cap. It's based on Charisma.}
 {126}{Resistance
 There are five basic resistances that can range from 0 to 95%. Items, background, race, and magick can modify all resistances.}
-{127}{Damage Resistance
-This is a general resistance to damage caused by weapons and physical attacks.}
-{128}{Magick Resistance
-This is resistance to magick spells and effects. Unlike Technological Aptitude, magick resistance does not affect the use of items or spells.}
-{129}{Fire Resistance
-This is resistance to damage by fire and spells that produce fire.}
-{130}{Poison Resistance
-This is resistance to damage caused by any kind of poisoning, whether natural, man-made, or supernatural. It is affected by Constitution.}
-{131}{Electrical Resistance
+{127}{Damage Resistance (DR)
+This is a general resistance to health and fatigue damage caused by weapons and physical attacks.}
+{128}{Magick Resistance (MR)
+Magick Resistance has no effect. Also, unlike Technological Aptitude, magick resistance does not affect the use of items or spells either.}
+{129}{Fire Resistance (FR)
+This is resistance to damage by fire and spells that produce fire. Fire damage reduces the durability of the affected armor piece by 10 on every hit.}
+{130}{Poison Resistance (PR)
+Resists to poison levels. Poison deals 1, 2, or 3 dmg based on its level (1-199, 200+, 550+) every 15 turns. ST:DX:-1 per 100 levels (max -3 at 300+). PR is affected by CN.}
+{131}{Electrical Resistance (ER)
 This is resistance to damage by electricity and lightning from spells or technological devices.}
 {132}{Skills
 This button will activate the display of skills below. Skills come in four groups: Combat, Thieving, Social, and Technological.}
