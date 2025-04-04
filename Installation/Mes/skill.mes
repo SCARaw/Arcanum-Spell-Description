@@ -18,10 +18,10 @@
 {17}{Apprentice}
 {18}{Expert}
 {19}{Master}
-{20}{Each 1/20 raises TH:+5% for bows. Apprentice:Bow weapon speed+5, Expert:Fire two arrows at once, Master:No aim distance TH penalty.} Bow //TH percentage is for Moderate difficulty
+{20}{Each 1/20 raises TH:+5% for bows. Apprentice:Bow weapon speed+5, Expert:Fire two arrows at once, Master:No range TH penalty.} Bow //TH percentage is for Moderate difficulty
 {21}{Each 1/20 raises dodge chance for hits by 1.5%. Training: On critical success; opponent critically fails 10%/50%/100%(apprentice/expert/master).} Dodge //Training percentages are taken from wiki and not confirmed
 {22}{Each 1/20 raises TH:+5% for melee and unarmed. Apprentice:Melee weapon speed+5, Expert:No lightning penalty, Master:No attack critical failure.} Melee //TH percentage is for Moderate difficulty
-{23}{Each 1/20 raises TH:+7% for throwing quickslot items/grenades/weapons. Apprentice:Throwing weapon speed+5, Expert:Throw objects(not weapons) farther, Master:No aim distance TH penalty.} Throwing //Expert: Wiki says 50% farther but it's not always true, TH percentage is for Moderate difficulty
+{23}{Each 1/20 raises TH:+7% for throwing quickslot items/grenades/weapons. Apprentice:Throwing weapon speed+5, Expert:Throw objects(not weapons) farther, Master:No range TH penalty.} Throwing //Expert: Wiki says 50% farther but it's not always true, TH percentage is for Moderate difficulty
 {24}{Each 1/20 deals D:1 from rear attacks with daggers (if unaware x5 multiplier). Apprentice: Bypass AC and DR if unaware, Expert: Swords and axes also backstab, Master:+20% crit. hit chance.} Backstab //Mastery number +20% is from Prima's guide and not confirmed
 {25}{Success chance is affected by Target's PE, unaware status, item's weight. Apprentice:ONLY caught on a crit fail, Expert:Item size penalty is halved, Master:Cannot be caught when planting items.} Pick Pocket //Trainings are taken from wiki and not confirmed
 {26}{The skill of hiding and moving quietly to avoid detection.  This skill is dependent upon your perception (PE).} Prowling
