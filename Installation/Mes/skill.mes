@@ -18,19 +18,19 @@
 {17}{Apprentice}
 {18}{Expert}
 {19}{Master}
-{20}{The skill of using short and long bows.  This skill is dependent upon your dexterity (DX).}
-{21}{The ability to dodge an attack or the effect of a trap.  This skill is dependent upon your dexterity (DX).}
-{22}{The chance to land a damaging blow with a hand weapon or while unarmed.  This skill is dependent upon your dexterity (DX).}
-{23}{The ability to throw knives, rocks, grenades or any damaging object.  This skill is dependent upon your dexterity (DX).}
-{24}{The art of doing extra damage with a rear melee attack.  This skill is dependent upon your dexterity (DX).}
-{25}{The art of stealing and planting items on other people.  This skill is dependent upon your dexterity (DX).}
-{26}{The skill of hiding and moving quietly to avoid detection.  This skill is dependent upon your perception (PE).}
-{27}{The ability to locate mechanical traps in the immediate vicinity before they are tripped.  This skill is dependent upon your perception (PE).}
-{28}{The skill (and luck) of winning at cards, dice and other games of chance.  This skill is dependent upon your intelligence (IN).}
-{29}{The art of the deal, used to buy goods at less than full price.  This skill is dependent upon your willpower (WP).}
-{30}{The ability to cure wounds and reduce crippling injury.  This skill is dependent upon your intelligence (IN).}
-{31}{The ability to convince someone to do an action or that you are telling the truth.  This skill is dependent upon your charisma (CH).}
-{32}{The skill of repairing damaged items.  This skill is dependent upon your intelligence (IN).}
-{33}{The ability of marksmanship with technological weapons.  This skill is dependent upon your perception (PE).}
-{34}{The skill of opening locks without the use of keys.  This skill is dependent upon your dexterity (DX).}
-{35}{The skill of disabling mechanical traps.  This skill is dependent upon your perception (PE).}
+{20}{Each 1/20 raises TH:+5% for bows. Apprentice:Bow weapon speed+5, Expert:Fire two arrows at once, Master:No aim distance TH penalty.} Bow //TH percentage is for Moderate difficulty
+{21}{Each 1/20 raises dodge chance for hits by 1.5%. Training: On critical success; opponent critically fails 10%/50%/100%(apprentice/expert/master).} Dodge //Training percentages are taken from wiki and not confirmed
+{22}{Each 1/20 raises TH:+5% for melee and unarmed. Apprentice:Melee weapon speed+5, Expert:No lightning penalty, Master:No attack critical failure.} Melee //TH percentage is for Moderate difficulty
+{23}{Each 1/20 raises TH:+7% for throwing quickslot items/grenades/weapons. Apprentice:Throwing weapon speed+5, Expert:Throw objects(not weapons) farther, Master:No aim distance TH penalty.} Throwing //Expert: Wiki says 50% farther but it's not always true, TH percentage is for Moderate difficulty
+{24}{Each 1/20 deals D:1 from rear attacks with daggers (if unaware x5 multiplier). Apprentice: Bypass AC and DR if unaware, Expert: Swords and axes also backstab, Master:+20% crit. hit chance.} Backstab //Mastery number +20% is from Prima's guide and not confirmed
+{25}{Success chance is affected by Target's PE, unaware status, item's weight. Apprentice:ONLY caught on a crit fail, Expert:Item size penalty is halved, Master:Cannot be caught when planting items.} Pick Pocket //Trainings are taken from wiki and not confirmed
+{26}{The skill of hiding and moving quietly to avoid detection.  This skill is dependent upon your perception (PE).} Prowling
+{27}{The ability to locate mechanical traps in the immediate vicinity before they are tripped.  This skill is dependent upon your perception (PE).} Spot Trap
+{28}{The skill (and luck) of winning at cards, dice and other games of chance.  This skill is dependent upon your intelligence (IN).} Gambling
+{29}{The art of the deal, used to buy goods at less than full price.  This skill is dependent upon your willpower (WP).} Haggle
+{30}{The ability to cure wounds and reduce crippling injury.  This skill is dependent upon your intelligence (IN).} Heal
+{31}{The ability to convince someone to do an action or that you are telling the truth.  This skill is dependent upon your charisma (CH).} Persuasion
+{32}{The skill of repairing damaged items.  This skill is dependent upon your intelligence (IN).} Repair
+{33}{The ability of marksmanship with technological weapons.  This skill is dependent upon your perception (PE).} Firearms
+{34}{The skill of opening locks without the use of keys.  This skill is dependent upon your dexterity (DX).} Pick Locks
+{35}{The skill of disabling mechanical traps.  This skill is dependent upon your perception (PE).} Disarm Traps
