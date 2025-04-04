@@ -75,7 +75,7 @@ Each 4 points grant 1 spell maintain box. IN:5+ is required to cast spells or us
 {114}{Willpower (WP)
 Each point increases Health+1, Fatigue+1.                         Willpower resists some hostile spells.                               WP:20 Bonus: Immunity to all spells resisted by WP.}
 {115}{Perception (PE)
-Each 2 points reduce aim distance TH penalty(-5 per step) by 1 step. Increases maximum scroll distance on screen. PE:20 Bonus: See invisible beings.} // PE doesn't raise the range for discovering new locations on World Map.
+Each 2 points reduce range TH penalty(-5 per step) by 1 step. Increases maximum scroll distance on screen.      PE:20 Bonus: See invisible beings.} // PE doesn't raise the range for discovering new locations on World Map.
 {116}{Charisma (CH)
 Each 4 points increase the max. follower cap by 1 (min. 1). Roughly half of the dialogue checks are based on CH.        CH:20 Bonus: Followers won't leave unless kicked.}
 {117}{Derived Stats
