@@ -1,0 +1,36 @@
+{0}{Bow}
+{1}{Dodge}
+{2}{Melee}
+{3}{Throwing}
+{4}{Backstab}
+{5}{Pick Pocket}
+{6}{Prowling}
+{7}{Spot Trap}
+{8}{Gambling}
+{9}{Haggle}
+{10}{Heal}
+{11}{Persuasion}
+{12}{Repair}
+{13}{Firearms}
+{14}{Pick Locks}
+{15}{Disarm Traps}
+{16}{}
+{17}{Apprentice}
+{18}{Expert}
+{19}{Master}
+{20}{The skill of using short and long bows.  This skill is dependent upon your dexterity (DX).}
+{21}{The ability to dodge an attack or the effect of a trap.  This skill is dependent upon your dexterity (DX).}
+{22}{The chance to land a damaging blow with a hand weapon or while unarmed.  This skill is dependent upon your dexterity (DX).}
+{23}{The ability to throw knives, rocks, grenades or any damaging object.  This skill is dependent upon your dexterity (DX).}
+{24}{The art of doing extra damage with a rear melee attack.  This skill is dependent upon your dexterity (DX).}
+{25}{The art of stealing and planting items on other people.  This skill is dependent upon your dexterity (DX).}
+{26}{The skill of hiding and moving quietly to avoid detection.  This skill is dependent upon your perception (PE).}
+{27}{The ability to locate mechanical traps in the immediate vicinity before they are tripped.  This skill is dependent upon your perception (PE).}
+{28}{The skill (and luck) of winning at cards, dice and other games of chance.  This skill is dependent upon your intelligence (IN).}
+{29}{The art of the deal, used to buy goods at less than full price.  This skill is dependent upon your willpower (WP).}
+{30}{The ability to cure wounds and reduce crippling injury.  This skill is dependent upon your intelligence (IN).}
+{31}{The ability to convince someone to do an action or that you are telling the truth.  This skill is dependent upon your charisma (CH).}
+{32}{The skill of repairing damaged items.  This skill is dependent upon your intelligence (IN).}
+{33}{The ability of marksmanship with technological weapons.  This skill is dependent upon your perception (PE).}
+{34}{The skill of opening locks without the use of keys.  This skill is dependent upon your dexterity (DX).}
+{35}{The skill of disabling mechanical traps.  This skill is dependent upon your perception (PE).}
