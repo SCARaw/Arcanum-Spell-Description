@@ -18,19 +18,19 @@
 {17}{Apprentice}
 {18}{Expert}
 {19}{Master}
-{20}{Each 1/20 raises TH:+5% for bows. Apprentice:Bow weapon speed+5, Expert:Fire two arrows at once, Master:No range TH penalty.} Bow //TH percentage is for Moderate difficulty
-{21}{Each 1/20 raises dodge chance for hits by 1.5%. Training: On critical success; opponent critically fails 10%/50%/100%(apprentice/expert/master).} Dodge //Training percentages are taken from wiki and not confirmed
-{22}{Each 1/20 raises TH:+5% for melee and unarmed. Apprentice:Melee weapon speed+5, Expert:No lightning penalty, Master:No attack critical failure.} Melee //TH percentage is for Moderate difficulty
-{23}{Each 1/20 raises TH:+7% for throwing quickslot items/grenades/weapons. Apprentice:Throwing weapon speed+5, Expert:Throw objects(not weapons) farther, Master:No range TH penalty.} Throwing //Expert: Wiki says 50% farther but it's not always true, TH percentage is for Moderate difficulty
-{24}{Each 1/20 deals D:1 from rear attacks with daggers (if unaware x5 multiplier). Apprentice: Bypass AC and DR if unaware, Expert: Swords and axes also backstab, Master:+20% crit. hit chance.} Backstab //Mastery number +20% is from Prima's guide and not confirmed
-{25}{Success chance is affected by Target's PE, unaware status, item's weight. Apprentice:ONLY caught on a crit fail, Expert:Item size penalty is halved, Master:Cannot be caught when planting items.} Pick Pocket //Trainings are taken from wiki and not confirmed
-{26}{The skill of hiding and moving quietly to avoid detection.  This skill is dependent upon your perception (PE).} Prowling
-{27}{The ability to locate mechanical traps in the immediate vicinity before they are tripped.  This skill is dependent upon your perception (PE).} Spot Trap
-{28}{The skill (and luck) of winning at cards, dice and other games of chance.  This skill is dependent upon your intelligence (IN).} Gambling
-{29}{The art of the deal, used to buy goods at less than full price.  This skill is dependent upon your willpower (WP).} Haggle
-{30}{The ability to cure wounds and reduce crippling injury.  This skill is dependent upon your intelligence (IN).} Heal
-{31}{The ability to convince someone to do an action or that you are telling the truth.  This skill is dependent upon your charisma (CH).} Persuasion
-{32}{The skill of repairing damaged items.  This skill is dependent upon your intelligence (IN).} Repair
-{33}{The ability of marksmanship with technological weapons.  This skill is dependent upon your perception (PE).} Firearms
-{34}{The skill of opening locks without the use of keys.  This skill is dependent upon your dexterity (DX).} Pick Locks
-{35}{The skill of disabling mechanical traps.  This skill is dependent upon your perception (PE).} Disarm Traps
+{20}{Each 1/20 raises TH:+5% for bows. Trainings: A:Bow weapon speed+5, E:Single-shot, double-hit; If first crits, second does too, M:No range TH penalty.} Bow //TH percentage is for Moderate difficulty.
+{21}{Each 1/20 raises dodge chance for hits by 1.5%. Trainings: On critical success; opponent critically fails 10%/50%/100%(A/E/M).} Dodge //Training percentages are taken from wiki and not confirmed.
+{22}{Each 1/20 raises TH:+5% for melee and unarmed. Trainings: A:Melee weapon speed+5, E:No light TH penalty, M:No attack critical failure.} Melee //TH percentage is for Moderate difficulty.
+{23}{Each 1/20 raises TH:+7% for throwing quickslot items/grenades/weapons. Trainings: A:Throwing weapon speed+5, E:Throw objects(not weapons) farther, M:No range TH penalty.} Throwing //Expert: Wiki says 50% farther but it's not always true, TH percentage is for Moderate difficulty.
+{24}{Each 1/20 deals D:1 from rear attacks with daggers (if unaware x5 multiplier). Trainings: A: Bypass AC and DR if unaware, E: Swords and axes also backstab, M:+20% crit. chance.} Backstab //Mastery number +20% is from Prima's guide and not confirmed.
+{25}{Affected by target's PE, unaware status, sleep and the item's size, equipped status. Trainings: A:ONLY caught on a crit fail, E:Item size penalty is halved, M:Cannot be caught when planting items.} Pick Pocket //Trainings are taken from wiki/manual and not confirmed (Master seems to be correct). Item value and size doesn't seem to affect success.
+{26}{Affected by NP, light levels and target's PE, proximity, line of sight. Trainings: A:No light penalty and NP is halved, E:Walk instead of tiptoeing, M:Run instead of walking and stay undetected during ranged attacks.} Prowling //Prowling seems to have bugs for light penalty so apprentice training is not confirmed.
+{27}{Affected by light levels. Doesn't detect Entangle and Disarm traps. Trainings: A: No light penalty, E:Detects Disarm Trap as well, M:If you fail (but not critically fail), then you get a second chance to spot the trap.} Spot Trap //Affected by light levels part is taken from manual and not confirmed. Expert training doesn't seem to detect Entangle traps.
+{28}{Each point raises max. item value one can gamble up to 5.000 at 20/20. Wins reduce reaction by up to -30. Trainings: A:Doubles max. item value one can gamble, E:Merchants gamble away some worn items, M:Merchants gamble away all worn items.} Gambling
+{29}{Trade for better deals. Trainings: A:Merchant mark-ups are visible, E:Merchants buy all except stolen goods, M:Merchants sell worn items.} Haggle
+{30}{Use bandages to heal between 1-heal skill, crit cures injuries. Trainings: A:Heal cap raises by 50%, E: Crit fails don't use extra bandages, M:All successes are upgraded to critical.} Heal //success rate is roughly around 85% on 20/20, critical success always heals the maximum possible.
+{31}{Roughly half of the dialogue checks are based on Persuasion. Trainings: A:Followers wait longer, E:+1 max. follower cap, M:Bypass follower recruitment requirements.} Persuasion //you lose (20 - Charisma) * 2 reaction when you make a party member wait too much and expert raises wait time for 1 tier.
+{32}{Repair non-broken items with 10% max. durability cost. Trainings: A:Max. durability cost is 5%, E:Max. durability cost is 1% M:No max. durability cost except crit fail, can fix broken items with 5% max. durability cost.} Repair
+{33}{Each 1/20 raises TH:+5% for firearms. Trainings: A:Firearms weapon speed+5, E:Called shots are made with 2/3 the penalty, M:No range TH penalty.} Firearms //Expert is taken from the wiki but not confirmed (it might have a UI bug)
+{34}{Requires lockpicks, crit fail jams lock for 1 day. Trainings: A:Pick lock action takes half as much time, E:No light penalty, M:The penalty based on the lock's difficulty is halved.} Pick Locks //Trainings are taken from wiki and not confirmed
+{35}{Disarm spotted traps. Trainings: A:No light penalty, E:Crit success gives trap component, M:If you fail (but not critically fail), then you get a second chance to disarm the trap.} Disarm Traps //Apprentice and Master are taken from wiki and not confirmed, Expert:You don't get anything for disarming magical traps
